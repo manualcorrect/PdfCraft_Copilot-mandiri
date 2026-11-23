@@ -1,0 +1,14 @@
+import re
+import zlib
+
+pdf_path = r"D:\X_Files\rekening\PT BENDI NASHA NIAGA INDUSTRI\Ibnu Agun\Folder Baru\aug\0.pdf"
+with open(pdf_path, "rb") as f:
+    pdf_bytes = f.read()
+
+for oid in [600, 603, 606]:
+    m = re.search(rb'\b' + str(oid).encode() + rb'\s+0\s+obj\s*<<(.*?)>>\s*stream[\r\n]+(.*?)[\r\n]+endstream', pdf_bytes, re.DOTALL)
+    if m:
+        dec = zlib.decompress(m.group(2))
+        cid_c = ord('c')
+        gid_c = (dec[cid_c*2] << 8) | dec[cid_c*2 + 1]
+        print(f"Aug Map {oid}: 'c' -> GID {gid_c}")

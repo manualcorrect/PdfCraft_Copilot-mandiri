@@ -1,0 +1,475 @@
+[
+  {
+    "page": 1,
+    "no": 1,
+    "row_y": 344.0,
+    "date": "04 Sep 2026",
+    "time": "19:01:17 WIB",
+    "nom": "-1.000.000,00",
+    "sal": "3.527.347,81",
+    "ket": [
+      "Penarikan tunai di ATM",
+      "BANK MANDIRI SRG IM CIRUAS 01"
+    ]
+  },
+  {
+    "page": 1,
+    "no": 2,
+    "row_y": 390.0,
+    "date": "04 Sep 2026",
+    "time": "19:18:12 WIB",
+    "nom": "+50.000,00",
+    "sal": "3.577.347,81",
+    "ket": [
+      "Transfer BI Fast",
+      "Dari BCA",
+      "INDRA MIDIAN 2452372917",
+      "-"
+    ]
+  },
+  {
+    "page": 1,
+    "no": 3,
+    "row_y": 436.0,
+    "date": "04 Sep 2026",
+    "time": "23:59:59 WIB",
+    "nom": "-3.500,00",
+    "sal": "3.573.847,81",
+    "ket": [
+      "Biaya administrasi kartu debit"
+    ]
+  },
+  {
+    "page": 1,
+    "no": 4,
+    "row_y": 482.0,
+    "date": "05 Sep 2026",
+    "time": "09:42:34 WIB",
+    "nom": "-2.500,00",
+    "sal": "3.571.347,81",
+    "ket": [
+      "Biaya transfer BI Fast"
+    ]
+  },
+  {
+    "page": 1,
+    "no": 5,
+    "row_y": 528.0,
+    "date": "05 Sep 2026",
+    "time": "09:42:34 WIB",
+    "nom": "-200.000,00",
+    "sal": "3.371.347,81",
+    "ket": [
+      "Transfer BI Fast",
+      "Ke BCA",
+      "KARINA AMALIA DARMAW 2452998221",
+      "-"
+    ]
+  },
+  {
+    "page": 1,
+    "no": 6,
+    "row_y": 574.0,
+    "date": "05 Sep 2026",
+    "time": "11:16:48 WIB",
+    "nom": "-2.500,00",
+    "sal": "3.368.847,81",
+    "ket": [
+      "Biaya transfer BI Fast"
+    ]
+  },
+  {
+    "page": 1,
+    "no": 7,
+    "row_y": 620.0,
+    "date": "05 Sep 2026",
+    "time": "11:16:48 WIB",
+    "nom": "-110.000,00",
+    "sal": "3.258.847,81",
+    "ket": [
+      "Transfer BI Fast",
+      "Ke SEABANK INDONESIA",
+      "MARWA ARSYIVA 901159417428",
+      "-"
+    ]
+  },
+  {
+    "page": 1,
+    "no": 8,
+    "row_y": 666.0,
+    "date": "05 Sep 2026",
+    "time": "11:59:54 WIB",
+    "nom": "-21.000,00",
+    "sal": "3.237.847,81",
+    "ket": [
+      "Pembayaran QR",
+      "ke SOTO LAMONGAN CAK JOYO QR",
+      "602456232175"
+    ]
+  },
+  {
+    "page": 1,
+    "no": 9,
+    "row_y": 712.0,
+    "date": "05 Sep 2026",
+    "time": "12:00:48 WIB",
+    "nom": "-36.000,00",
+    "sal": "3.201.847,81",
+    "ket": [
+      "Pembayaran QR",
+      "ke MADURA IKA",
+      "602452197164"
+    ]
+  },
+  {
+    "page": 1,
+    "no": 10,
+    "row_y": 758.0,
+    "date": "05 Sep 2026",
+    "time": "15:15:29 WIB",
+    "nom": "-1.000,00",
+    "sal": "3.200.847,81",
+    "ket": [
+      "Biaya transaksi bank",
+      "Pembayaran Danatopup",
+      "89508089622130569"
+    ]
+  },
+  {
+    "page": 2,
+    "no": 11,
+    "row_y": 228.0,
+    "date": "05 Sep 2026",
+    "time": "15:15:29 WIB",
+    "nom": "-658.000,00",
+    "sal": "2.542.847,81",
+    "ket": [
+      "Pembayaran Danatopup",
+      "89508089622130569"
+    ]
+  },
+  {
+    "page": 2,
+    "no": 12,
+    "row_y": 274.0,
+    "date": "06 Sep 2026",
+    "time": "21:03:56 WIB",
+    "nom": "-1.000,00",
+    "sal": "2.541.847,81",
+    "ket": [
+      "Biaya transaksi bank",
+      "Pembayaran Danatopup",
+      "89508083175718201"
+    ]
+  },
+  {
+    "page": 2,
+    "no": 13,
+    "row_y": 320.0,
+    "date": "06 Sep 2026",
+    "time": "21:03:56 WIB",
+    "nom": "-2.500,00",
+    "sal": "2.539.347,81",
+    "ket": [
+      "Biaya transfer BI Fast"
+    ]
+  },
+  {
+    "page": 2,
+    "no": 14,
+    "row_y": 366.0,
+    "date": "08 Sep 2026",
+    "time": "09:44:21 WIB",
+    "nom": "-1.500.000,00",
+    "sal": "1.039.347,81",
+    "ket": [
+      "Transfer BI Fast",
+      "Ke BCA",
+      "MULYATI 2452705525"
+    ]
+  },
+  {
+    "page": 2,
+    "no": 15,
+    "row_y": 412.0,
+    "date": "08 Sep 2026",
+    "time": "20:51:41 WIB",
+    "nom": "-73.000,00",
+    "sal": "966.347,81",
+    "ket": [
+      "Pembayaran QR",
+      "ke CHANYA DIO PD",
+      "602486735923"
+    ]
+  },
+  {
+    "page": 2,
+    "no": 16,
+    "row_y": 458.0,
+    "date": "08 Sep 2026",
+    "time": "22:54:49 WIB",
+    "nom": "-500.000,00",
+    "sal": "466.347,81",
+    "ket": [
+      "Penarikan tunai tanpa kartu",
+      "Di ATM SRG MD CIRUAS 01",
+      "089622130569"
+    ]
+  },
+  {
+    "page": 2,
+    "no": 17,
+    "row_y": 504.0,
+    "date": "09 Sep 2026",
+    "time": "12:36:44 WIB",
+    "nom": "-211.900,00",
+    "sal": "254.447,81",
+    "ket": [
+      "Pembayaran QR",
+      "ke QR MTHDS 296 MALL SERANG",
+      "602497965859"
+    ]
+  },
+  {
+    "page": 2,
+    "no": 18,
+    "row_y": 550.0,
+    "date": "09 Sep 2026",
+    "time": "12:41:26 WIB",
+    "nom": "-2.500,00",
+    "sal": "251.947,81",
+    "ket": [
+      "Biaya tra nsfer BI F ast"
+    ]
+  },
+  {
+    "page": 2,
+    "no": 19,
+    "row_y": 596.0,
+    "date": "09 Sep 2026",
+    "time": "16:24:22 WIB",
+    "nom": "-100.000,00",
+    "sal": "151.947,81",
+    "ket": [
+      "Transfer BI Fast",
+      "Ke BCA",
+      "MULYATI 2452705525",
+      "-"
+    ]
+  },
+  {
+    "page": 2,
+    "no": 20,
+    "row_y": 642.0,
+    "date": "10 Sep 2026",
+    "time": "20:29:20 WIB",
+    "nom": "-1.000,00",
+    "sal": "150.947,81",
+    "ket": [
+      "Biaya transaksi bank",
+      "Pembayaran Danatopup",
+      "89508089622130569"
+    ]
+  },
+  {
+    "page": 2,
+    "no": 21,
+    "row_y": 688.0,
+    "date": "10 Sep 2026",
+    "time": "20:29:20 WIB",
+    "nom": "-50.000,00",
+    "sal": "100.947,81",
+    "ket": [
+      "Pembayaran Danatopup",
+      "89508089622130569"
+    ]
+  },
+  {
+    "page": 2,
+    "no": 22,
+    "row_y": 734.0,
+    "date": "25 Sep 2026",
+    "time": "04:00:00 WIB",
+    "nom": "+6.778.000,00",
+    "sal": "6.878.947,81",
+    "ket": [
+      "Transfer BI Fast",
+      "Dari BCA",
+      "PT BENDI NASHA NIAGA INDUSTRI 5411078192",
+      "(CENAIDJA)"
+    ]
+  },
+  {
+    "page": 3,
+    "no": 23,
+    "row_y": 228.0,
+    "date": "25 Sep 2026",
+    "time": "10:49:08 WIB",
+    "nom": "-2.500,00",
+    "sal": "6.876.447,81",
+    "ket": [
+      "Biaya transfer BI Fast"
+    ]
+  },
+  {
+    "page": 3,
+    "no": 24,
+    "row_y": 274.0,
+    "date": "25 Sep 2026",
+    "time": "10:49:08 WIB",
+    "nom": "-1.300.000,00",
+    "sal": "5.576.447,81",
+    "ket": [
+      "Transfer BI Fast",
+      "Ke BCA",
+      "DEBORA DIAN FITRESIA 2453460819"
+    ]
+  },
+  {
+    "page": 3,
+    "no": 25,
+    "row_y": 320.0,
+    "date": "26 Sep 2026",
+    "time": "10:36:03 WIB",
+    "nom": "-1.000,00",
+    "sal": "5.575.447,81",
+    "ket": [
+      "Biaya transaksi bank",
+      "Pembayaran Danatopup",
+      "89508089622130569"
+    ]
+  },
+  {
+    "page": 3,
+    "no": 26,
+    "row_y": 366.0,
+    "date": "26 Sep 2026",
+    "time": "10:36:03 WIB",
+    "nom": "-49.000,00",
+    "sal": "5.526.447,81",
+    "ket": [
+      "Pembayaran Danatopup",
+      "89508089622130569"
+    ]
+  },
+  {
+    "page": 3,
+    "no": 27,
+    "row_y": 412.0,
+    "date": "26 Sep 2026",
+    "time": "14:39:50 WIB",
+    "nom": "-500.000,00",
+    "sal": "5.026.447,81",
+    "ket": [
+      "Pembayaran QR",
+      "ke ALGO SIDOARJO - QRIS",
+      "604414054958"
+    ]
+  },
+  {
+    "page": 3,
+    "no": 28,
+    "row_y": 458.0,
+    "date": "27 Sep 2026",
+    "time": "10:46:16 WIB",
+    "nom": "-500.000,00",
+    "sal": "4.526.447,81",
+    "ket": [
+      "Pembayaran QR",
+      "ke BPOP Galeri",
+      "602542322638"
+    ]
+  },
+  {
+    "page": 3,
+    "no": 29,
+    "row_y": 504.0,
+    "date": "27 Sep 2026",
+    "time": "16:41:59 WIB",
+    "nom": "-380.000,00",
+    "sal": "4.146.447,81",
+    "ket": [
+      "Top-up e-money",
+      "6032982545716407"
+    ]
+  },
+  {
+    "page": 3,
+    "no": 30,
+    "row_y": 550.0,
+    "date": "28 Sep 2026",
+    "time": "01:46:22 WIB",
+    "nom": "-1.000,00",
+    "sal": "4.145.447,81",
+    "ket": [
+      "Biaya transaksi bank",
+      "Pembayaran Danatopup",
+      "89508089622130569"
+    ]
+  },
+  {
+    "page": 3,
+    "no": 31,
+    "row_y": 596.0,
+    "date": "28 Sep 2026",
+    "time": "01:46:22 WIB",
+    "nom": "-100.000,00",
+    "sal": "4.045.447,81",
+    "ket": [
+      "Pembayaran Danatopup",
+      "89508089622130569"
+    ]
+  },
+  {
+    "page": 3,
+    "no": 32,
+    "row_y": 642.0,
+    "date": "28 Sep 2026",
+    "time": "15:12:40 WIB",
+    "nom": "-1.500,00",
+    "sal": "4.043.947,81",
+    "ket": [
+      "Biaya transaksi bank",
+      "Pembayaran Doku Merchant",
+      "8902297404788969"
+    ]
+  },
+  {
+    "page": 3,
+    "no": 33,
+    "row_y": 688.0,
+    "date": "28 Sep 2026",
+    "time": "15:12:40 WIB",
+    "nom": "-294.591,00",
+    "sal": "3.749.356,81",
+    "ket": [
+      "Pembayaran Doku Merchant",
+      "8902297404788969"
+    ]
+  },
+  {
+    "page": 3,
+    "no": 34,
+    "row_y": 734.0,
+    "date": "28 Sep 2026",
+    "time": "17:12:24 WIB",
+    "nom": "-1.000.000,00",
+    "sal": "2.749.356,81",
+    "ket": [
+      "Penarikan tunai di ATM",
+      "BANK MANDIRI SRG IM CIRUAS 01"
+    ]
+  },
+  {
+    "page": 4,
+    "no": 35,
+    "row_y": 228.0,
+    "date": "30 Sep 2026",
+    "time": "23:59:00 WIB",
+    "nom": "-5.000,00",
+    "sal": "2.744.356,81",
+    "ket": [
+      "Biaya administrasi rekening"
+    ]
+  }
+]

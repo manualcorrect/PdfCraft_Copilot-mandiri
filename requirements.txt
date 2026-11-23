@@ -1,0 +1,6 @@
+# Core dependencies for PdfCraft Copilot (Bank Mandiri e-Statement Engine)
+pdfplumber>=0.11.0
+openpyxl>=3.1.2
+pypdf>=4.0.0
+reportlab>=4.0.0
+requests>=2.31.0
