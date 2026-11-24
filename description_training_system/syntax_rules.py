@@ -46,11 +46,11 @@ class TransactionSyntaxRule:
         if any(p in clean for p in ["Shopee Indonesia", "Tokopedia", "TikTok", "Blibli", "Lazada"]):
             return TransactionCategory.ECOMMERCE
 
+        if any(clean.startswith(f) for f in ["Biaya", "Bunga", "Pajak", "BIAYA", "BUNGA", "PAJAK"]):
+            return TransactionCategory.BANK_FEES_ADMIN
+
         if any(p in clean for p in ["Danatopup", "Instamoney", "Top-up e-money", "Gopay", "OVO", "DANA", "Telkomsel", "PLN"]):
             return TransactionCategory.EWALLET_BILLER
-
-        if any(clean.startswith(f) for f in ["Biaya", "Bunga", "Pajak"]):
-            return TransactionCategory.BANK_FEES_ADMIN
 
         return TransactionCategory.GENERAL_TRANSFER
 
@@ -244,10 +244,22 @@ class TransactionSyntaxRule:
 
     @staticmethod
     def format_bank_fees(text: str) -> List[str]:
-        """Bank fees and administration are strictly 1 line (or 2 if biller fee)."""
+        """Bank fees and administration are strictly 1 line (or 2-3 if biller fee)."""
         clean = " ".join(text.split())
+        
+        # 3-line Biller Fee e.g. Biaya transaksi bank Pembayaran Danatopup 89508089622130569
+        m_biller = re.search(r"(Biaya\s+transaksi\s+bank)\s+(Pembayaran\s+[A-Za-z0-9]+)\s+(\d+)$", clean, re.IGNORECASE)
+        if m_biller:
+            return [m_biller.group(1).strip(), m_biller.group(2).strip(), m_biller.group(3).strip()]
+
+        # 2-line Payment Fee e.g. Biaya pembayaran ...
         if "Biaya pembayaran" in clean:
             m = re.search(r"(Biaya\s+pembayaran\s+.*?)\s+(\d+)$", clean)
             if m:
                 return [m.group(1).strip(), m.group(2).strip()]
+
+        parts = [p.strip() for p in text.split("\n") if p.strip()]
+        if len(parts) >= 2:
+            return parts[:3]
+
         return [clean]

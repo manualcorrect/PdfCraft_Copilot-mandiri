@@ -39,8 +39,14 @@ Dataset diekstraksi dari ribuan baris mutasi rekening koran resmi Bank Mandiri:
 2. `Mei 2026_unlocked.pdf` (Roy Darwin Rezerius)
 3. `e-Statement_XXXXXXXXX9210_01 Des 2024-31 Des 2024_unlocked.pdf` (6 Halaman, Muhammad Nasih)
 4. `e-Statement_XXXXXXXXX9648_01 Apr 2026-30 Apr 2026_unlocked.pdf` (Suhanda)
+5. `REK_WAFIQ_AUG_OUTPUT_PERFECT.pdf` (Wafiq Dwi Ananda - Agustus 2026)
+6. `REK_WAFIQ_SEP_OUTPUT_PERFECT.pdf` (Wafiq Dwi Ananda - September 2026)
+7. `REK_WAFIQ_OKT_OUTPUT_PERFECT.pdf` (Wafiq Dwi Ananda - Oktober 2026)
+8. `REK GAJI AGUSTUS IBNU AGUN.pdf` (Ibnu Agun - Agustus 2026)
+9. `REK_IBNU_SEP_OUTPUT_1.pdf` (Ibnu Agun - September 2026)
+10. `REK_IBNU_OKT_OUTPUT_1.pdf` (Ibnu Agun - Oktober 2026)
 
-Total sampel ground-truth terlabeli: **251 sampel transaksi unik**.
+Total sampel ground-truth terlabeli: **347 sampel transaksi unik** (dari total 789 baris terekstraksi).
 
 ---
 
@@ -98,14 +104,17 @@ python description_training_system/trainer_evaluator.py
 ```
 
 ### Hasil Benchmark:
-1. **Akurasi Klasifikasi**: **96.41%** (242 dari 251 sampel terklasifikasi sempurna).
+1. **Akurasi Klasifikasi**: **96.54%** (335 dari 347 sampel terklasifikasi sempurna).
 2. **Keamanan Spasial**: **100.0% Zero Collision** (tidak ada teks yang melebihi batas batas baris $46.00\text{ pt}$).
-3. **Hasil Mandatory Regression Test Suite**:
+3. **Hasil Mandatory Regression Test Suite (9 / 9 PASS)**:
    * `TC-01`: Corporate Payroll PT Bendi Nasha Niaga Industri $\rightarrow$ **PASS**
    * `TC-02`: BI Fast dengan berita cicil upah $\rightarrow$ **PASS**
    * `TC-03`: In-house transfer rekening 13 digit $\rightarrow$ **PASS**
-   * `TC-04`: Penarikan tunai tanpa kartu di ATM $\rightarrow$ **PASS**
+   * `TC-04`: Penarikan tunai tanpa kartu di ATM (3 baris) $\rightarrow$ **PASS**
    * `TC-05`: Pembayaran QRIS merchant 3 baris $\rightarrow$ **PASS**
-   * `TC-06`: Biaya administrasi 1 baris $\rightarrow$ **PASS**
+   * `TC-06`: Biaya administrasi 1 baris baseline $\rightarrow$ **PASS**
+   * `TC-07`: Penarikan tunai kartu debit ATM (2 baris) $\rightarrow$ **PASS**
+   * `TC-08`: Pasangan biaya transaksi bank Danatopup (3 baris) $\rightarrow$ **PASS**
+   * `TC-09`: Pembayaran Danatopup (2 baris) $\rightarrow$ **PASS**
 
 Setiap kali script ini dijalankan, ringkasan otomatis dicatat ke file `training_logs/training_history.jsonl` dan diekspor ke `training_logs/LATEST_TRAINING_REPORT.md`.

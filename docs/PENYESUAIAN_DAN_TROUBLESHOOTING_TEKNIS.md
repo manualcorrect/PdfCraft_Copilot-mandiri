@@ -97,7 +97,42 @@ Modul `src/smart_date_time_generator.py` menerapkan aturan:
 
 ---
 
-## 6. Checklist Pemecahan Masalah di Perangkat Baru
+## 7. Masalah: Dekompresi Stream Terpotong (`zlib.error: Error -5 truncated stream`)
+
+### Gejala
+Ketika membaca objek stream terkompresi menggunakan ekspresi reguler greedy seperti `stream[\r\n]+(.*?)[\r\n]+endstream`, byte terakhir dari data biner kompresi yang bernilai `\r` (0x0D) atau `\n` (0x0A) secara keliru tertelan sebagai pemisah (*delimiter*), mengakibatkan `zlib.error: Error -5 while decompressing data: incomplete or truncated stream`.
+
+### Solusi Baku: **Exact `/Length <N>` Byte Slicing**
+Engine beralih menggunakan pemotongan biner eksak sesuai header kamus PDF:
+```python
+m_len = re.search(rb'/Length\s+(\d+)', raw_obj)
+length = int(m_len.group(1))
+m_stream = re.search(rb'stream(\r\n|\n)', raw_obj)
+stream_bytes = raw_obj[m_stream.end() : m_stream.end() + length]
+decompressed = zlib.decompress(stream_bytes)
+```
+Metode ini 100% kebal terhadap variasi byte acak pada ujung stream biner.
+
+---
+
+## 8. Logika Pasangan Transaksi Biller & Biaya Penutup Bulan
+
+### Gejala & Temuan Forensik
+1. **Pasangan Transaksi Biller**: Setiap transaksi topup e-wallet (`Pembayaran Danatopup`) pada sistem Livin' Mandiri selalu didahului oleh transaksi `Biaya transaksi bank` (-Rp 1.000) dengan tanggal dan detik yang persis identik (*synchronized timestamps*). Jika ada mutasi debit mandiri (misal -Rp 450.000) tanpa biaya admin, mutasi tersebut secara logis dan otentik adalah transaksi `Penarikan tunai di ATM` (2 baris: jenis transaksi + nama lokasi ATM).
+2. **Penutup Akhir Bulan (`Biaya administrasi rekening`)**: Diletakkan pada tanggal terakhir bulan pukul `23:59:00 WIB` dengan nominal -Rp 5.000 atau -Rp 12.500. Keterangan ini berformat 1 baris yang wajib duduk persis pada baseline baris `top = 734.00 pt` (menerapkan offset translasi `dy = -5.0 pt` dari bounding box bawaan).
+
+---
+
+## 9. Rekonsiliasi Saldo Integer Excel vs Desimal PDF
+
+Untuk memastikan neraca akuntansi tetap klop 100% pada kedua media:
+* **Tabel Mutasi Excel**: Kolom Saldo disimpan sebagai integer murni (`running_saldo_int = saldo_awal_int + sum(nominals)`).
+* **e-Statement PDF**: Ditambahkan desimal sen baku `,81` (`format_idr(running_saldo_int + 0.81)`).
+Hal ini mencegah deviasi $\pm 1$ rupiah akibat pembulatan *float* (`round`) pada digit sen.
+
+---
+
+## 10. Checklist Pemecahan Masalah di Perangkat Baru
 
 | Masalah | Kemungkinan Penyebab | Tindakan Solusi |
 | :--- | :--- | :--- |

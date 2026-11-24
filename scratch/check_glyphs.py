@@ -1,27 +1,13 @@
 import pdfplumber
 
-chars_found = set()
-with pdfplumber.open(r'D:\X_Files\rekening\PT BENDI NASHA NIAGA INDUSTRI\keisya\Folder Baru\aug\0.pdf') as pdf:
+pdf_path = r"D:\X_Files\rekening\PT BENDI NASHA NIAGA INDUSTRI\Wafiq\Folder Baru\aug\0.pdf"
+chars = set()
+with pdfplumber.open(pdf_path) as pdf:
     for page in pdf.pages:
-        for c in page.chars:
-            chars_found.add(c['text'])
+        txt = page.extract_text() or ""
+        chars.update(set(txt))
 
-target_name = "KEISYA AULIA"
-missing_name = [c for c in target_name if c not in chars_found]
-print("Target name:", target_name)
-print("Missing glyphs in 0.pdf:", missing_name)
+needed = set("WAFIQ DWI ANANDA KCP Serang Ciceri 01 Aug 2026 - 31 Aug 2026 22 Nov 2026 1630016689138 + 5.900.000,00 - 8.068.801,00 2.615.994,81 5.500.000,00 450.000,00 5.000,00 PT BENDI NASHA NIAGA INDUSTRI 5411078192 (CENAIDJA) Biaya administrasi rekening 4 dari 4 4 of 4")
 
-target_branch = "KCP Serang Ciceri"
-missing_branch = [c for c in target_branch if c not in chars_found]
-print("Target branch:", target_branch)
-print("Missing glyphs for branch:", missing_branch)
-
-target_period = "01 Aug 2026 - 31 Aug 2026"
-missing_period = [c for c in target_period if c not in chars_found]
-print("Target period:", target_period)
-print("Missing glyphs for period:", missing_period)
-
-target_issued = "12 Nov 2026"
-missing_issued = [c for c in target_issued if c not in chars_found]
-print("Target issued:", target_issued)
-print("Missing glyphs for issued:", missing_issued)
+missing = needed - chars
+print("Needed characters missing from 0.pdf:", missing)

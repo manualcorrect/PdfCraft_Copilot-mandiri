@@ -1,6 +1,6 @@
 # Laporan Monitoring Sistem Logika Training Keterangan
-**Waktu Eksekusi:** `2026-11-02T22:28:24.108008`  
-**Dataset Ground Truth:** `251 Sampel Transaksi Resmi Bank Mandiri`
+**Waktu Eksekusi:** `2026-11-24T16:34:42.388633`  
+**Dataset Ground Truth:** `347 Sampel Transaksi Resmi Bank Mandiri`
 
 ---
 
@@ -8,10 +8,10 @@
 
 | Metrik Evaluasi | Hasil Model | Target Baku | Status |
 | :--- | :---: | :---: | :---: |
-| **Akurasi Klasifikasi Kategori** | **96.41%** | $\ge 95.0\%$ | ✅ PASS |
-| **Akurasi Pemisahan Baris (Line Count)** | **87.65%** | $\ge 95.0\%$ | ⚠️ REVIEW |
+| **Akurasi Klasifikasi Kategori** | **96.54%** | $\ge 95.0\%$ | ✅ PASS |
+| **Akurasi Pemisahan Baris (Line Count)** | **90.2%** | $\ge 95.0\%$ | ⚠️ REVIEW |
 | **Kepatuhan Keamanan Spasial (Zero-Collision)** | **100.0%** | $100.0\%$ | ✅ PASS |
-| **Hasil Uji Kasus Khusus (Edge Cases)** | **6 / 6** | $100\%$ | ✅ SEMUA LULUS |
+| **Hasil Uji Kasus Khusus (Edge Cases)** | **9 / 9** | $100\%$ | ✅ SEMUA LULUS |
 
 ---
 
@@ -19,15 +19,15 @@
 
 | Kategori Transaksi | Total Sampel | Akurasi Kategori | Akurasi Format Baris |
 | :--- | :---: | :---: | :---: |
-| `ATM_WITHDRAWAL` | 23 | 100.0% | 100.0% |
-| `BANK_FEES_ADMIN` | 7 | 85.7% | 57.1% |
-| `BI_FAST` | 41 | 100.0% | 75.6% |
-| `ECOMMERCE` | 2 | 100.0% | 50.0% |
-| `EWALLET_BILLER` | 24 | 87.5% | 58.3% |
-| `GENERAL_TRANSFER` | 25 | 80.0% | 80.0% |
-| `MANDIRI_INHOUSE` | 7 | 100.0% | 71.4% |
-| `PAYROLL_CORPORATE` | 6 | 100.0% | 100.0% |
-| `QRIS_PAYMENT` | 116 | 100.0% | 100.0% |
+| `ATM_WITHDRAWAL` | 28 | 100.0% | 100.0% |
+| `BANK_FEES_ADMIN` | 26 | 96.2% | 100.0% |
+| `BI_FAST` | 55 | 100.0% | 65.5% |
+| `ECOMMERCE` | 4 | 100.0% | 50.0% |
+| `EWALLET_BILLER` | 22 | 77.3% | 77.3% |
+| `GENERAL_TRANSFER` | 39 | 84.6% | 84.6% |
+| `MANDIRI_INHOUSE` | 9 | 100.0% | 77.8% |
+| `PAYROLL_CORPORATE` | 9 | 100.0% | 100.0% |
+| `QRIS_PAYMENT` | 155 | 100.0% | 100.0% |
 
 ---
 
@@ -79,6 +79,28 @@
 - **Offset Vertikal ($dY$):** `0.0 pt` dari garis dasar baris
 - **Penyusunan Baris Prediksi:**
   1. `Biaya administrasi rekening`
+
+### TC-07-ATM-DEBIT-CARD: Debit Card ATM Cash Withdrawal (2 lines) [✅ PASS]
+- **Kategori Prediksi:** `ATM_WITHDRAWAL` (Target: `ATM_WITHDRAWAL`)
+- **Offset Vertikal ($dY$):** `-5.0 pt` dari garis dasar baris
+- **Penyusunan Baris Prediksi:**
+  1. `Penarikan tunai di ATM`
+  2. `BANK MANDIRI SRG AM PURI ANGREK 01`
+
+### TC-08-DANATOPUP-FEE-PAIR: Danatopup Biller Bank Fee (3 lines) [✅ PASS]
+- **Kategori Prediksi:** `BANK_FEES_ADMIN` (Target: `BANK_FEES_ADMIN`)
+- **Offset Vertikal ($dY$):** `-10.0 pt` dari garis dasar baris
+- **Penyusunan Baris Prediksi:**
+  1. `Biaya transaksi bank`
+  2. `Pembayaran Danatopup`
+  3. `89508089622130569`
+
+### TC-09-DANATOPUP-TRANSACTION: Danatopup Payment (2 lines) [✅ PASS]
+- **Kategori Prediksi:** `EWALLET_BILLER` (Target: `EWALLET_BILLER`)
+- **Offset Vertikal ($dY$):** `-5.0 pt` dari garis dasar baris
+- **Penyusunan Baris Prediksi:**
+  1. `Pembayaran Danatopup`
+  2. `89508089622130569`
 
 ---
 *Laporan ini dihasilkan secara otomatis oleh `DescriptionTrainerEvaluator` dan tersimpan secara permanen pada log monitoring.*

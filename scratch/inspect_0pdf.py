@@ -1,18 +1,15 @@
-import sys
-sys.path.insert(0, 'src')
-from pdfcraft_client import PdfCraftClient
+import pdfplumber
 
-client = PdfCraftClient()
-doc_id = client.doc_open(r'D:\X_Files\rekening\PT BENDI NASHA NIAGA INDUSTRI\keisya\Folder Baru\aug\0.pdf')
-
-for p in range(1, 6):
-    paras = client.get_paragraphs(doc_id, page=p)
-    print(f"=== PAGE {p} (Total {len(paras)} paras) ===")
-    for para in paras:
-        txt = para.get('text', '').strip()
-        r = [round(x, 1) for x in para['rect']]
-        pid = para['paragraph']
-        if any(term in txt for term in ['ROY', 'DARWIN', '01Mar', '1 dari', '2 dari', '3 dari', '4 dari', '5 dari', '09Sep', 'Aries', '165000', '16.827', '18.273', '52.488']):
-            print(f"  [HDR] P{pid} rect={r}: {txt}")
-
-client.doc_close(doc_id, discard_changes=True)
+pdf_path = r"D:\X_Files\rekening\PT BENDI NASHA NIAGA INDUSTRI\Wafiq\Folder Baru\aug\0.pdf"
+with pdfplumber.open(pdf_path) as pdf:
+    for i, p in enumerate(pdf.pages):
+        print(f"=== PAGE {i+1} ===")
+        words = p.extract_words()
+        top_words = [w for w in words if w["top"] < 150]
+        print("Header words (top < 150):")
+        print(" ".join(w["text"] for w in sorted(top_words, key=lambda x: (x["top"], x["x0"]))))
+        if i == 0:
+            sum_words = [w for w in words if 150 <= w["top"] <= 270]
+            print("Summary words (150 <= top <= 270):")
+            for w in sorted(sum_words, key=lambda x: (x["top"], x["x0"])):
+                print(f"  {w['text']} at x={w['x0']:.1f}, top={w['top']:.1f}")

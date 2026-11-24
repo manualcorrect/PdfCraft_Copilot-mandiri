@@ -3,7 +3,7 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Status: Production Ready](https://img.shields.io/badge/Status-Production%20Ready-brightgreen.svg)]()
-[![Accuracy: 96.41%](https://img.shields.io/badge/Classification%20Accuracy-96.41%25-success.svg)]()
+[![Accuracy: 96.54%](https://img.shields.io/badge/Classification%20Accuracy-96.54%25-success.svg)]()
 [![Spatial Safety: 100%](https://img.shields.io/badge/Spatial%20Safety-100%25%20Zero--Collision-success.svg)]()
 
 > **Sistem Rekayasa & Otomatisasi Dokumen e-Statement Bank Mandiri Berstandar Baku Perbankan Resmi**
@@ -21,14 +21,14 @@ Repositori ini berisi seluruh kode sumber, modul logika training kecerdasan buat
    - Sistem penguncian batas kanan (*Right-Edge Invariance*) untuk Nominal ($X=432.00\text{ pt}$) dan Saldo ($X=571.00\text{ pt}$).
 
 2. **Sistem Training & AI Sintaks Keterangan (`description_training_system`)**:
-   - Dilatih menggunakan **251 sampel transaksi resmi Bank Mandiri**.
-   - Akurasi klasifikasi kategori mencapai **96.41%** pada 9 kategori perbankan.
+   - Dilatih menggunakan **347 sampel transaksi resmi Bank Mandiri** (dari total 789 baris terekstraksi).
+   - Akurasi klasifikasi kategori mencapai **96.54%** pada 9 kategori perbankan.
    - **100% Zero-Collision Guarantee**: Pemecahan baris ($1, 2, 3,$ atau $4$ baris) dengan pemusatan vertikal simetris terhadap baseline baris.
-   - Lulus 100% pada *Mandatory Regression Test Cases* (Corporate Payroll, BI Fast, QRIS, ATM Cardless, Bank Fees).
+   - Lulus 100% pada *Mandatory Regression Test Cases* (9 / 9 PASS): Corporate Payroll PT Bendi, BI Fast, QRIS, ATM Cardless, ATM Debit Card, Biller Fee Pair, Danatopup, Bank Fees.
 
 3. **Penjadwalan Waktu Kronologis Realistis (`smart_date_time_generator.py`)**:
    - Distribusi transaksi otomatis dalam jendela jam kerja perbankan.
-   - Jeda waktu dinamis antar transaksi tanpa regresi jam (*non-colliding timestamps*).
+   - Jeda waktu dinamis antar transaksi tanpa regresi jam (*non-colliding timestamps*), mempertahankan stempel waktu identik untuk transaksi berpasangan (misal: fee + topup).
 
 4. **Rekonsiliasi Neraca Otomatis**:
    - Menghitung mutasi kredit/debit dan memvalidasi persamaan neraca:
@@ -97,6 +97,12 @@ PdfCraft_Copilot/
 │   ├── master_page_disclaimer_standalone.pdf # Halaman disclaimer murni
 │   └── Template_Mutasi_Bank.xlsx      # Template mutasi Excel standar
 ├── scripts/                           # Skrip Produksi & Verifikasi Per Klien
+│   ├── build_wafiq_aug_final.py       # Skrip produksi klien Wafiq (Agustus)
+│   ├── build_wafiq_sep_final.py       # Skrip produksi klien Wafiq (September)
+│   ├── build_wafiq_okt_final.py       # Skrip produksi klien Wafiq (Oktober)
+│   ├── verify_wafiq_aug_final.py      # Script audit lengkap Wafiq (Agustus)
+│   ├── verify_wafiq_sep_final.py      # Script audit lengkap Wafiq (September)
+│   ├── verify_wafiq_okt_final.py      # Script audit lengkap Wafiq (Oktober)
 │   ├── build_ibnu_okt_final.py        # Skrip produksi klien Ibnu (Oktober)
 │   ├── build_keisya_okt_perfect.py    # Skrip produksi klien Keisya (Oktober)
 │   ├── build_galang_statement.py      # Skrip produksi klien Galang

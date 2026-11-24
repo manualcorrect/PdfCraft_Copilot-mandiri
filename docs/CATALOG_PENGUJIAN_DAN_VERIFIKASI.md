@@ -27,6 +27,9 @@ Pengujian dalam repositori ini terbagi menjadi 4 lapisan kualitas (*Quality Assu
 
 | Nama Script | Dokumen Target | Aspek yang Diuji |
 | :--- | :--- | :--- |
+| `scripts/verify_wafiq_okt_final.py` | `REK_WAFIQ_OKT_OUTPUT_PERFECT.pdf` | Audit 69 parameter: neraca klop 100%, salary 4 baris, penutup bulan 1 baris baseline, font purity TTInterphases. |
+| `scripts/verify_wafiq_sep_final.py` | `REK_WAFIQ_SEP_OUTPUT_PERFECT.pdf` | Audit neraca klop, kesinambungan saldo berjalan (,81), stream replacement tanpa decompress truncated. |
+| `scripts/verify_wafiq_aug_final.py` | `REK_WAFIQ_AUG_OUTPUT_PERFECT.pdf` | Audit 57 parameter: Tx 33 tarik tunai ATM, Tx 34 biaya admin, salary simetris 4 baris. |
 | `scripts/verify_ibnu_okt_final.py` | `REK_IBNU_OKT_OUTPUT_1.pdf` | Alignment kotak ringkasan, right-edge nominal/saldo, audit seluruh 7 halaman, verifikasi rekonsiliasi neraca. |
 | `scripts/verify_ibnu_sep_final.py` | `REK_IBNU_SEP_OUTPUT_1.pdf` | Keselarasan halaman ganjil-genap, stream UTF-16BE replacement, kontinuitas saldo dari bulan Agustus. |
 | `scripts/verify_ibnu_aug_final.py` | `REK_IBNU_AUG_OUTPUT_1.pdf` | Pengujian baseline baris pertama, format tanggal ganda, dan kelengkapan footer regulasi. |

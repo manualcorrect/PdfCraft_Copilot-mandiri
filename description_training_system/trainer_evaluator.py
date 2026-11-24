@@ -168,6 +168,37 @@ class DescriptionTrainerEvaluator:
                     "Biaya administrasi rekening"
                 ],
                 "expected_cat": "BANK_FEES_ADMIN"
+            },
+            {
+                "case_id": "TC-07-ATM-DEBIT-CARD",
+                "name": "Debit Card ATM Cash Withdrawal (2 lines)",
+                "input": "Penarikan tunai di ATM BANK MANDIRI SRG AM PURI ANGREK 01",
+                "expected_lines": [
+                    "Penarikan tunai di ATM",
+                    "BANK MANDIRI SRG AM PURI ANGREK 01"
+                ],
+                "expected_cat": "ATM_WITHDRAWAL"
+            },
+            {
+                "case_id": "TC-08-DANATOPUP-FEE-PAIR",
+                "name": "Danatopup Biller Bank Fee (3 lines)",
+                "input": "Biaya transaksi bank Pembayaran Danatopup 89508089622130569",
+                "expected_lines": [
+                    "Biaya transaksi bank",
+                    "Pembayaran Danatopup",
+                    "89508089622130569"
+                ],
+                "expected_cat": "BANK_FEES_ADMIN"
+            },
+            {
+                "case_id": "TC-09-DANATOPUP-TRANSACTION",
+                "name": "Danatopup Payment (2 lines)",
+                "input": "Pembayaran Danatopup 89508089622130569",
+                "expected_lines": [
+                    "Pembayaran Danatopup",
+                    "89508089622130569"
+                ],
+                "expected_cat": "EWALLET_BILLER"
             }
         ]
 

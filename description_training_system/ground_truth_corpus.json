@@ -763,7 +763,7 @@
     "source_file": "Agu 2026_unlocked.pdf",
     "page": 2,
     "row": 9,
-    "category": "EWALLET_BILLER",
+    "category": "BANK_FEES_ADMIN",
     "line_count": 3,
     "full_text": "Biaya transaksi bank\nPembayaran Danatopup\n89508089622130569",
     "lines": [
@@ -5068,7 +5068,7 @@
     "source_file": "Mei 2026_unlocked.pdf",
     "page": 2,
     "row": 7,
-    "category": "EWALLET_BILLER",
+    "category": "BANK_FEES_ADMIN",
     "line_count": 3,
     "full_text": "Biaya transaksi bank\nPembayaran Danatopup\n89508087865519823",
     "lines": [
@@ -5993,7 +5993,7 @@
     "source_file": "Mei 2026_unlocked.pdf",
     "page": 4,
     "row": 11,
-    "category": "EWALLET_BILLER",
+    "category": "BANK_FEES_ADMIN",
     "line_count": 3,
     "full_text": "Biaya transaksi bank\nPembayaran Danatopup\n89508083851364226",
     "lines": [
@@ -6263,7 +6263,7 @@
     "source_file": "Mei 2026_unlocked.pdf",
     "page": 5,
     "row": 9,
-    "category": "EWALLET_BILLER",
+    "category": "BANK_FEES_ADMIN",
     "line_count": 3,
     "full_text": "Biaya transaksi bank\nPembayaran Danatopup\n89508081399611977",
     "lines": [
@@ -6623,7 +6623,7 @@
     "source_file": "Mei 2026_unlocked.pdf",
     "page": 7,
     "row": 9,
-    "category": "EWALLET_BILLER",
+    "category": "BANK_FEES_ADMIN",
     "line_count": 3,
     "full_text": "Biaya transaksi bank\nPembayaran Danatopup\n89508089525849008",
     "lines": [
@@ -7688,7 +7688,7 @@
     "source_file": "Mei 2026_unlocked.pdf",
     "page": 10,
     "row": 9,
-    "category": "EWALLET_BILLER",
+    "category": "BANK_FEES_ADMIN",
     "line_count": 3,
     "full_text": "Biaya transaksi bank\nPembayaran Danatopup\n89508085706296202",
     "lines": [
@@ -9688,7 +9688,7 @@
     "source_file": "e-Statement_XXXXXXXXX9210_01 Des 2024-31 Des 2024_unlocked.pdf",
     "page": 4,
     "row": 3,
-    "category": "EWALLET_BILLER",
+    "category": "BANK_FEES_ADMIN",
     "line_count": 2,
     "full_text": "Biaya pembayaran Telkomsel Prepaid\n082114342479",
     "lines": [
@@ -10473,7 +10473,7 @@
     "source_file": "e-Statement_XXXXXXXXX9648_01 Apr 2026-30 Apr 2026_unlocked.pdf",
     "page": 1,
     "row": 1,
-    "category": "EWALLET_BILLER",
+    "category": "BANK_FEES_ADMIN",
     "line_count": 3,
     "full_text": "Biaya transaksi bank\nPembayaran PLN Postpaid\n539610090610",
     "lines": [
@@ -11093,5 +11093,4295 @@
     "tipe": "DB",
     "nominal": "-99.718,00",
     "row_base_y": 503.92
+  },
+  {
+    "source_file": "REK_WAFIQ_AUG_OUTPUT_PERFECT.pdf",
+    "page": 1,
+    "row": 2,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke ALGO SERANG - QRIS\n615214140004",
+    "lines": [
+      "Pembayaran QR",
+      "ke ALGO SERANG - QRIS",
+      "615214140004"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 124.0,
+        "x1": 181.52,
+        "width": 57.52,
+        "top": 380.0,
+        "bottom": 388.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "ke ALGO SERANG - QRIS",
+        "x0": 124.0,
+        "x1": 212.28,
+        "width": 88.28,
+        "top": 390.0,
+        "bottom": 398.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "615214140004",
+        "x0": 124.0,
+        "x1": 175.23,
+        "width": 51.23,
+        "top": 400.0,
+        "bottom": 408.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-104.900,00",
+    "row_base_y": 389.92
+  },
+  {
+    "source_file": "REK_WAFIQ_AUG_OUTPUT_PERFECT.pdf",
+    "page": 1,
+    "row": 3,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke SATE BABI KO ENCUNG-HO\n606411487495",
+    "lines": [
+      "Pembayaran QR",
+      "ke SATE BABI KO ENCUNG-HO",
+      "606411487495"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 124.0,
+        "x1": 181.52,
+        "width": 57.52,
+        "top": 426.0,
+        "bottom": 434.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "ke SATE BABI KO ENCUNG-HO",
+        "x0": 124.0,
+        "x1": 234.43,
+        "width": 110.43,
+        "top": 436.0,
+        "bottom": 444.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "606411487495",
+        "x0": 124.0,
+        "x1": 175.43,
+        "width": 51.43,
+        "top": 446.0,
+        "bottom": 454.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-471.000,00",
+    "row_base_y": 435.92
+  },
+  {
+    "source_file": "REK_WAFIQ_AUG_OUTPUT_PERFECT.pdf",
+    "page": 1,
+    "row": 4,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke GRAMEDIA 017 KARAWACI\n606415149602",
+    "lines": [
+      "Pembayaran QR",
+      "ke GRAMEDIA 017 KARAWACI",
+      "606415149602"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 124.0,
+        "x1": 181.52,
+        "width": 57.52,
+        "top": 472.0,
+        "bottom": 480.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "ke GRAMEDIA 017 KARAWACI",
+        "x0": 124.0,
+        "x1": 229.48,
+        "width": 105.48,
+        "top": 482.0,
+        "bottom": 490.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "606415149602",
+        "x0": 124.0,
+        "x1": 176.68,
+        "width": 52.68,
+        "top": 492.0,
+        "bottom": 500.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-117.500,00",
+    "row_base_y": 481.92
+  },
+  {
+    "source_file": "REK_WAFIQ_AUG_OUTPUT_PERFECT.pdf",
+    "page": 1,
+    "row": 6,
+    "category": "BANK_FEES_ADMIN",
+    "line_count": 3,
+    "full_text": "Biaya transaksi bank\nPembayaran Doku Merchant\n8902297405673439",
+    "lines": [
+      "Biaya transaksi bank",
+      "Pembayaran Doku Merchant",
+      "8902297405673439"
+    ],
+    "line_details": [
+      {
+        "text": "Biaya transaksi bank",
+        "x0": 124.0,
+        "x1": 195.76,
+        "width": 71.76,
+        "top": 564.0,
+        "bottom": 572.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "Pembayaran Doku Merchant",
+        "x0": 124.0,
+        "x1": 225.29,
+        "width": 101.29,
+        "top": 574.0,
+        "bottom": 582.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "8902297405673439",
+        "x0": 124.0,
+        "x1": 197.91,
+        "width": 73.91,
+        "top": 584.0,
+        "bottom": 592.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-1.500,00",
+    "row_base_y": 573.92
+  },
+  {
+    "source_file": "REK_WAFIQ_AUG_OUTPUT_PERFECT.pdf",
+    "page": 1,
+    "row": 7,
+    "category": "GENERAL_TRANSFER",
+    "line_count": 2,
+    "full_text": "Pembayaran Doku Merchant\n8902297405673439",
+    "lines": [
+      "Pembayaran Doku Merchant",
+      "8902297405673439"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran Doku Merchant",
+        "x0": 124.0,
+        "x1": 225.29,
+        "width": 101.29,
+        "top": 615.0,
+        "bottom": 623.0,
+        "rel_y": -4.92
+      },
+      {
+        "text": "8902297405673439",
+        "x0": 124.0,
+        "x1": 197.91,
+        "width": 73.91,
+        "top": 625.0,
+        "bottom": 633.0,
+        "rel_y": 5.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-272.901,00",
+    "row_base_y": 619.92
+  },
+  {
+    "source_file": "REK_WAFIQ_AUG_OUTPUT_PERFECT.pdf",
+    "page": 1,
+    "row": 10,
+    "category": "MANDIRI_INHOUSE",
+    "line_count": 2,
+    "full_text": "Transfer ke BANK MANDIRI\nTUBAGUS YUDI SUBAYYI 1630002408899",
+    "lines": [
+      "Transfer ke BANK MANDIRI",
+      "TUBAGUS YUDI SUBAYYI 1630002408899"
+    ],
+    "line_details": [
+      {
+        "text": "Transfer ke BANK MANDIRI",
+        "x0": 124.0,
+        "x1": 220.72,
+        "width": 96.72,
+        "top": 753.0,
+        "bottom": 761.0,
+        "rel_y": -4.92
+      },
+      {
+        "text": "TUBAGUS YUDI SUBAYYI 1630002408899",
+        "x0": 124.0,
+        "x1": 276.49,
+        "width": 152.49,
+        "top": 763.0,
+        "bottom": 771.0,
+        "rel_y": 5.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-99.000,00",
+    "row_base_y": 757.92
+  },
+  {
+    "source_file": "REK_WAFIQ_AUG_OUTPUT_PERFECT.pdf",
+    "page": 2,
+    "row": 6,
+    "category": "EWALLET_BILLER",
+    "line_count": 2,
+    "full_text": "Transfer dari Bank lain\nDANA-ROY DARWIN REZE 1500011089622130569",
+    "lines": [
+      "Transfer dari Bank lain",
+      "DANA-ROY DARWIN REZE 1500011089622130569"
+    ],
+    "line_details": [
+      {
+        "text": "Transfer dari Bank lain",
+        "x0": 124.0,
+        "x1": 202.48,
+        "width": 78.48,
+        "top": 453.0,
+        "bottom": 461.0,
+        "rel_y": -4.92
+      },
+      {
+        "text": "DANA-ROY DARWIN REZE 1500011089622130569",
+        "x0": 124.88,
+        "x1": 303.71,
+        "width": 178.83,
+        "top": 463.0,
+        "bottom": 471.0,
+        "rel_y": 5.08
+      }
+    ],
+    "tipe": "CR",
+    "nominal": "+150.000,00",
+    "row_base_y": 457.92
+  },
+  {
+    "source_file": "REK_WAFIQ_AUG_OUTPUT_PERFECT.pdf",
+    "page": 2,
+    "row": 8,
+    "category": "BI_FAST",
+    "line_count": 3,
+    "full_text": "Transfer BI Fast\nKe SEABANK INDONESIA\nLENI 901180946529",
+    "lines": [
+      "Transfer BI Fast",
+      "Ke SEABANK INDONESIA",
+      "LENI 901180946529"
+    ],
+    "line_details": [
+      {
+        "text": "Transfer BI Fast",
+        "x0": 124.0,
+        "x1": 179.96,
+        "width": 55.96,
+        "top": 540.0,
+        "bottom": 548.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "Ke SEABANK INDONESIA",
+        "x0": 124.0,
+        "x1": 213.35,
+        "width": 89.35,
+        "top": 550.0,
+        "bottom": 558.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "LENI 901180946529",
+        "x0": 124.0,
+        "x1": 195.67,
+        "width": 71.67,
+        "top": 560.0,
+        "bottom": 568.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-300.000,00",
+    "row_base_y": 549.92
+  },
+  {
+    "source_file": "REK_WAFIQ_AUG_OUTPUT_PERFECT.pdf",
+    "page": 2,
+    "row": 9,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke WARTEG 3 PUTRA BAHARI\n606440367016",
+    "lines": [
+      "Pembayaran QR",
+      "ke WARTEG 3 PUTRA BAHARI",
+      "606440367016"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 124.0,
+        "x1": 181.52,
+        "width": 57.52,
+        "top": 586.0,
+        "bottom": 594.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "ke WARTEG 3 PUTRA BAHARI",
+        "x0": 124.0,
+        "x1": 229.92,
+        "width": 105.92,
+        "top": 596.0,
+        "bottom": 604.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "606440367016",
+        "x0": 124.0,
+        "x1": 178.88,
+        "width": 54.88,
+        "top": 606.0,
+        "bottom": 614.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-16.000,00",
+    "row_base_y": 595.92
+  },
+  {
+    "source_file": "REK_WAFIQ_AUG_OUTPUT_PERFECT.pdf",
+    "page": 2,
+    "row": 10,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke WARTEG 3 PUTRA BAHARI\n606449462598",
+    "lines": [
+      "Pembayaran QR",
+      "ke WARTEG 3 PUTRA BAHARI",
+      "606449462598"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 124.0,
+        "x1": 181.52,
+        "width": 57.52,
+        "top": 632.0,
+        "bottom": 640.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "ke WARTEG 3 PUTRA BAHARI",
+        "x0": 124.0,
+        "x1": 229.92,
+        "width": 105.92,
+        "top": 642.0,
+        "bottom": 650.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "606449462598",
+        "x0": 124.0,
+        "x1": 179.75,
+        "width": 55.75,
+        "top": 652.0,
+        "bottom": 660.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-56.000,00",
+    "row_base_y": 641.92
+  },
+  {
+    "source_file": "REK_WAFIQ_AUG_OUTPUT_PERFECT.pdf",
+    "page": 2,
+    "row": 11,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke jerukgehazmi\n606441332431",
+    "lines": [
+      "Pembayaran QR",
+      "ke jerukgehazmi",
+      "606441332431"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 124.0,
+        "x1": 181.52,
+        "width": 57.52,
+        "top": 678.0,
+        "bottom": 686.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "ke jerukgehazmi",
+        "x0": 124.0,
+        "x1": 181.53,
+        "width": 57.53,
+        "top": 688.0,
+        "bottom": 696.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "606441332431",
+        "x0": 124.0,
+        "x1": 175.52,
+        "width": 51.52,
+        "top": 698.0,
+        "bottom": 706.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-14.000,00",
+    "row_base_y": 687.92
+  },
+  {
+    "source_file": "REK_WAFIQ_AUG_OUTPUT_PERFECT.pdf",
+    "page": 3,
+    "row": 2,
+    "category": "PAYROLL_CORPORATE",
+    "line_count": 4,
+    "full_text": "Transfer BI Fast\nDari BCA\nPT BENDI NASHA NIAGA INDUSTRI 5411078192\n(CENAIDJA)",
+    "lines": [
+      "Transfer BI Fast",
+      "Dari BCA",
+      "PT BENDI NASHA NIAGA INDUSTRI 5411078192",
+      "(CENAIDJA)"
+    ],
+    "line_details": [
+      {
+        "text": "Transfer BI Fast",
+        "x0": 124.0,
+        "x1": 179.96,
+        "width": 55.96,
+        "top": 256.66,
+        "bottom": 264.66,
+        "rel_y": -17.26
+      },
+      {
+        "text": "Dari BCA",
+        "x0": 124.0,
+        "x1": 155.68,
+        "width": 31.68,
+        "top": 266.66,
+        "bottom": 274.66,
+        "rel_y": -7.26
+      },
+      {
+        "text": "PT BENDI NASHA NIAGA INDUSTRI 5411078192",
+        "x0": 124.0,
+        "x1": 291.55,
+        "width": 167.55,
+        "top": 276.66,
+        "bottom": 284.66,
+        "rel_y": 2.74
+      },
+      {
+        "text": "(CENAIDJA)",
+        "x0": 124.0,
+        "x1": 167.0,
+        "width": 43.0,
+        "top": 286.66,
+        "bottom": 294.66,
+        "rel_y": 12.74
+      }
+    ],
+    "tipe": "CR",
+    "nominal": "+",
+    "row_base_y": 273.92
+  },
+  {
+    "source_file": "REK_WAFIQ_AUG_OUTPUT_PERFECT.pdf",
+    "page": 3,
+    "row": 6,
+    "category": "GENERAL_TRANSFER",
+    "line_count": 2,
+    "full_text": "Penyetoran tunai di ATM\nBANK MANDIRI SRG AM PURI ANGREK 01",
+    "lines": [
+      "Penyetoran tunai di ATM",
+      "BANK MANDIRI SRG AM PURI ANGREK 01"
+    ],
+    "line_details": [
+      {
+        "text": "Penyetoran tunai di ATM",
+        "x0": 124.0,
+        "x1": 211.27,
+        "width": 87.27,
+        "top": 453.0,
+        "bottom": 461.0,
+        "rel_y": -4.92
+      },
+      {
+        "text": "BANK MANDIRI SRG AM PURI ANGREK 01",
+        "x0": 124.0,
+        "x1": 271.92,
+        "width": 147.92,
+        "top": 463.0,
+        "bottom": 471.0,
+        "rel_y": 5.08
+      }
+    ],
+    "tipe": "CR",
+    "nominal": "+250.000,00",
+    "row_base_y": 457.92
+  },
+  {
+    "source_file": "REK_WAFIQ_SEP_OUTPUT_PERFECT.pdf",
+    "page": 1,
+    "row": 3,
+    "category": "BI_FAST",
+    "line_count": 4,
+    "full_text": "Transfer BI Fast\nDari BANK KEB HANA\nKARINA AMALIA DARMAW 17800005280\nFund Transfer",
+    "lines": [
+      "Transfer BI Fast",
+      "Dari BANK KEB HANA",
+      "KARINA AMALIA DARMAW 17800005280",
+      "Fund Transfer"
+    ],
+    "line_details": [
+      {
+        "text": "Transfer BI Fast",
+        "x0": 123.89,
+        "x1": 179.86,
+        "width": 55.96,
+        "top": 421.15,
+        "bottom": 429.15,
+        "rel_y": -14.77
+      },
+      {
+        "text": "Dari BANK KEB HANA",
+        "x0": 123.89,
+        "x1": 200.21,
+        "width": 76.32,
+        "top": 431.15,
+        "bottom": 439.15,
+        "rel_y": -4.77
+      },
+      {
+        "text": "KARINA AMALIA DARMAW 17800005280",
+        "x0": 123.89,
+        "x1": 272.13,
+        "width": 148.24,
+        "top": 441.15,
+        "bottom": 449.15,
+        "rel_y": 5.23
+      },
+      {
+        "text": "Fund Transfer",
+        "x0": 123.89,
+        "x1": 173.73,
+        "width": 49.84,
+        "top": 451.15,
+        "bottom": 459.15,
+        "rel_y": 15.23
+      }
+    ],
+    "tipe": "CR",
+    "nominal": "+500.000,00",
+    "row_base_y": 435.92
+  },
+  {
+    "source_file": "REK_WAFIQ_SEP_OUTPUT_PERFECT.pdf",
+    "page": 1,
+    "row": 4,
+    "category": "BI_FAST",
+    "line_count": 4,
+    "full_text": "Transfer BI Fast\nDari BANK CIMB\nDOMPET ANAK BANGSA 803777000900\nGoPay Bank Transfer ID2615663465350KGP",
+    "lines": [
+      "Transfer BI Fast",
+      "Dari BANK CIMB",
+      "DOMPET ANAK BANGSA 803777000900",
+      "GoPay Bank Transfer ID2615663465350KGP"
+    ],
+    "line_details": [
+      {
+        "text": "Transfer BI Fast",
+        "x0": 123.89,
+        "x1": 179.86,
+        "width": 55.96,
+        "top": 467.15,
+        "bottom": 475.15,
+        "rel_y": -14.77
+      },
+      {
+        "text": "Dari BANK CIMB",
+        "x0": 123.89,
+        "x1": 182.01,
+        "width": 58.12,
+        "top": 477.15,
+        "bottom": 485.15,
+        "rel_y": -4.77
+      },
+      {
+        "text": "DOMPET ANAK BANGSA 803777000900",
+        "x0": 123.89,
+        "x1": 272.25,
+        "width": 148.36,
+        "top": 487.15,
+        "bottom": 495.15,
+        "rel_y": 5.23
+      },
+      {
+        "text": "GoPay Bank Transfer ID2615663465350KGP",
+        "x0": 123.89,
+        "x1": 281.84,
+        "width": 157.95,
+        "top": 497.15,
+        "bottom": 505.15,
+        "rel_y": 15.23
+      }
+    ],
+    "tipe": "CR",
+    "nominal": "+42.000,00",
+    "row_base_y": 481.92
+  },
+  {
+    "source_file": "REK_WAFIQ_SEP_OUTPUT_PERFECT.pdf",
+    "page": 1,
+    "row": 7,
+    "category": "GENERAL_TRANSFER",
+    "line_count": 2,
+    "full_text": "Pembayaran Finnet Indonesia, PT\n880446031640238",
+    "lines": [
+      "Pembayaran Finnet Indonesia, PT",
+      "880446031640238"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran Finnet Indonesia, PT",
+        "x0": 123.89,
+        "x1": 242.26,
+        "width": 118.36,
+        "top": 615.15,
+        "bottom": 623.15,
+        "rel_y": -4.77
+      },
+      {
+        "text": "880446031640238",
+        "x0": 123.89,
+        "x1": 193.04,
+        "width": 69.15,
+        "top": 625.15,
+        "bottom": 633.15,
+        "rel_y": 5.23
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-50.000,00",
+    "row_base_y": 619.92
+  },
+  {
+    "source_file": "REK_WAFIQ_SEP_OUTPUT_PERFECT.pdf",
+    "page": 1,
+    "row": 8,
+    "category": "GENERAL_TRANSFER",
+    "line_count": 4,
+    "full_text": "Transfer antar Mandiri\nDARI AIRPAY INTERNATIONAL\nSHOPEE_200001012 0000A178073134392601680\nTransfer Fee 1780731343392601680",
+    "lines": [
+      "Transfer antar Mandiri",
+      "DARI AIRPAY INTERNATIONAL",
+      "SHOPEE_200001012 0000A178073134392601680",
+      "Transfer Fee 1780731343392601680"
+    ],
+    "line_details": [
+      {
+        "text": "Transfer antar Mandiri",
+        "x0": 123.89,
+        "x1": 202.25,
+        "width": 78.36,
+        "top": 651.15,
+        "bottom": 659.15,
+        "rel_y": -14.77
+      },
+      {
+        "text": "DARI AIRPAY INTERNATIONAL",
+        "x0": 123.89,
+        "x1": 233.0,
+        "width": 109.11,
+        "top": 661.15,
+        "bottom": 669.15,
+        "rel_y": -4.77
+      },
+      {
+        "text": "SHOPEE_200001012 0000A178073134392601680",
+        "x0": 123.89,
+        "x1": 305.35,
+        "width": 181.46,
+        "top": 671.15,
+        "bottom": 679.15,
+        "rel_y": 5.23
+      },
+      {
+        "text": "Transfer Fee 1780731343392601680",
+        "x0": 123.89,
+        "x1": 253.74,
+        "width": 129.84,
+        "top": 681.15,
+        "bottom": 689.15,
+        "rel_y": 15.23
+      }
+    ],
+    "tipe": "CR",
+    "nominal": "+55.000,00",
+    "row_base_y": 665.92
+  },
+  {
+    "source_file": "REK_WAFIQ_SEP_OUTPUT_PERFECT.pdf",
+    "page": 1,
+    "row": 9,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke SHIHLIN SUMMARECON MALL B\n606064043451",
+    "lines": [
+      "Pembayaran QR",
+      "ke SHIHLIN SUMMARECON MALL B",
+      "606064043451"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 123.89,
+        "x1": 181.41,
+        "width": 57.52,
+        "top": 702.15,
+        "bottom": 710.15,
+        "rel_y": -9.77
+      },
+      {
+        "text": "ke SHIHLIN SUMMARECON MALL B",
+        "x0": 123.89,
+        "x1": 251.73,
+        "width": 127.84,
+        "top": 712.15,
+        "bottom": 720.15,
+        "rel_y": 0.23
+      },
+      {
+        "text": "606064043451",
+        "x0": 123.89,
+        "x1": 179.09,
+        "width": 55.2,
+        "top": 722.15,
+        "bottom": 730.15,
+        "rel_y": 10.23
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-47.000,00",
+    "row_base_y": 711.92
+  },
+  {
+    "source_file": "REK_WAFIQ_SEP_OUTPUT_PERFECT.pdf",
+    "page": 1,
+    "row": 10,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke TEMPTATION DRINK 1 SMB\n606067648186",
+    "lines": [
+      "Pembayaran QR",
+      "ke TEMPTATION DRINK 1 SMB",
+      "606067648186"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 123.89,
+        "x1": 181.41,
+        "width": 57.52,
+        "top": 748.15,
+        "bottom": 756.15,
+        "rel_y": -9.77
+      },
+      {
+        "text": "ke TEMPTATION DRINK 1 SMB",
+        "x0": 123.89,
+        "x1": 231.41,
+        "width": 107.52,
+        "top": 758.15,
+        "bottom": 766.15,
+        "rel_y": 0.23
+      },
+      {
+        "text": "606067648186",
+        "x0": 123.89,
+        "x1": 178.49,
+        "width": 54.6,
+        "top": 768.15,
+        "bottom": 776.15,
+        "rel_y": 10.23
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-",
+    "row_base_y": 757.92
+  },
+  {
+    "source_file": "REK_WAFIQ_SEP_OUTPUT_PERFECT.pdf",
+    "page": 2,
+    "row": 1,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke SAMBAL BAKAR INDONESIA -\n606077021470",
+    "lines": [
+      "Pembayaran QR",
+      "ke SAMBAL BAKAR INDONESIA -",
+      "606077021470"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 124.0,
+        "x1": 181.52,
+        "width": 57.52,
+        "top": 218.0,
+        "bottom": 226.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "ke SAMBAL BAKAR INDONESIA -",
+        "x0": 124.0,
+        "x1": 240.28,
+        "width": 116.28,
+        "top": 228.0,
+        "bottom": 236.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "606077021470",
+        "x0": 124.0,
+        "x1": 178.72,
+        "width": 54.72,
+        "top": 238.0,
+        "bottom": 246.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-364.000,00",
+    "row_base_y": 227.92
+  },
+  {
+    "source_file": "REK_WAFIQ_SEP_OUTPUT_PERFECT.pdf",
+    "page": 2,
+    "row": 2,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke SAMBAL BAKAR INDONESIA -\n606077056744",
+    "lines": [
+      "Pembayaran QR",
+      "ke SAMBAL BAKAR INDONESIA -",
+      "606077056744"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 124.0,
+        "x1": 181.52,
+        "width": 57.52,
+        "top": 264.0,
+        "bottom": 272.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "ke SAMBAL BAKAR INDONESIA -",
+        "x0": 124.0,
+        "x1": 240.28,
+        "width": 116.28,
+        "top": 274.0,
+        "bottom": 282.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "606077056744",
+        "x0": 124.0,
+        "x1": 179.88,
+        "width": 55.88,
+        "top": 284.0,
+        "bottom": 292.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-42.000,00",
+    "row_base_y": 273.92
+  },
+  {
+    "source_file": "REK_WAFIQ_SEP_OUTPUT_PERFECT.pdf",
+    "page": 2,
+    "row": 3,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke SAMBAL BAKAR INDONESIA -\n606077097006",
+    "lines": [
+      "Pembayaran QR",
+      "ke SAMBAL BAKAR INDONESIA -",
+      "606077097006"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 124.0,
+        "x1": 181.52,
+        "width": 57.52,
+        "top": 310.0,
+        "bottom": 318.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "ke SAMBAL BAKAR INDONESIA -",
+        "x0": 124.0,
+        "x1": 240.28,
+        "width": 116.28,
+        "top": 320.0,
+        "bottom": 328.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "606077097006",
+        "x0": 124.0,
+        "x1": 181.72,
+        "width": 57.72,
+        "top": 330.0,
+        "bottom": 338.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-40.000,00",
+    "row_base_y": 319.92
+  },
+  {
+    "source_file": "REK_WAFIQ_SEP_OUTPUT_PERFECT.pdf",
+    "page": 2,
+    "row": 4,
+    "category": "BANK_FEES_ADMIN",
+    "line_count": 3,
+    "full_text": "Biaya transaksi bank\nPembayaran Danatopup\n89508082165767466",
+    "lines": [
+      "Biaya transaksi bank",
+      "Pembayaran Danatopup",
+      "89508082165767466"
+    ],
+    "line_details": [
+      {
+        "text": "Biaya transaksi bank",
+        "x0": 124.0,
+        "x1": 195.76,
+        "width": 71.76,
+        "top": 356.0,
+        "bottom": 364.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "Pembayaran Danatopup",
+        "x0": 124.0,
+        "x1": 210.06,
+        "width": 86.06,
+        "top": 366.0,
+        "bottom": 374.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "89508082165767466",
+        "x0": 124.0,
+        "x1": 201.22,
+        "width": 77.22,
+        "top": 376.0,
+        "bottom": 384.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-1.000,00",
+    "row_base_y": 365.92
+  },
+  {
+    "source_file": "REK_WAFIQ_SEP_OUTPUT_PERFECT.pdf",
+    "page": 2,
+    "row": 5,
+    "category": "EWALLET_BILLER",
+    "line_count": 2,
+    "full_text": "Pembayaran Danatopup\n89508082165767466",
+    "lines": [
+      "Pembayaran Danatopup",
+      "89508082165767466"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran Danatopup",
+        "x0": 124.0,
+        "x1": 210.06,
+        "width": 86.06,
+        "top": 407.0,
+        "bottom": 415.0,
+        "rel_y": -4.92
+      },
+      {
+        "text": "89508082165767466",
+        "x0": 124.0,
+        "x1": 201.22,
+        "width": 77.22,
+        "top": 417.0,
+        "bottom": 425.0,
+        "rel_y": 5.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-100.000,00",
+    "row_base_y": 411.92
+  },
+  {
+    "source_file": "REK_WAFIQ_SEP_OUTPUT_PERFECT.pdf",
+    "page": 2,
+    "row": 7,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke TAHU WALIK KREZZZ\n606481438957",
+    "lines": [
+      "Pembayaran QR",
+      "ke TAHU WALIK KREZZZ",
+      "606481438957"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 124.0,
+        "x1": 181.52,
+        "width": 57.52,
+        "top": 494.0,
+        "bottom": 502.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "ke TAHU WALIK KREZZZ",
+        "x0": 124.0,
+        "x1": 210.22,
+        "width": 86.22,
+        "top": 504.0,
+        "bottom": 512.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "606481438957",
+        "x0": 124.0,
+        "x1": 177.6,
+        "width": 53.6,
+        "top": 514.0,
+        "bottom": 522.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-20.000,00",
+    "row_base_y": 503.92
+  },
+  {
+    "source_file": "REK_WAFIQ_SEP_OUTPUT_PERFECT.pdf",
+    "page": 2,
+    "row": 9,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke WARTEG 3 PUTRA BAHARI\n606493538469",
+    "lines": [
+      "Pembayaran QR",
+      "ke WARTEG 3 PUTRA BAHARI",
+      "606493538469"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 124.0,
+        "x1": 181.52,
+        "width": 57.52,
+        "top": 586.0,
+        "bottom": 594.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "ke WARTEG 3 PUTRA BAHARI",
+        "x0": 124.0,
+        "x1": 229.92,
+        "width": 105.92,
+        "top": 596.0,
+        "bottom": 604.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "606493538469",
+        "x0": 124.0,
+        "x1": 179.91,
+        "width": 55.91,
+        "top": 606.0,
+        "bottom": 614.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-56.000,00",
+    "row_base_y": 595.92
+  },
+  {
+    "source_file": "REK_WAFIQ_SEP_OUTPUT_PERFECT.pdf",
+    "page": 2,
+    "row": 12,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke WARTEG 3 PUTRA BAHARI\n606518550963",
+    "lines": [
+      "Pembayaran QR",
+      "ke WARTEG 3 PUTRA BAHARI",
+      "606518550963"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 124.0,
+        "x1": 181.52,
+        "width": 57.52,
+        "top": 724.0,
+        "bottom": 732.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "ke WARTEG 3 PUTRA BAHARI",
+        "x0": 124.0,
+        "x1": 229.92,
+        "width": 105.92,
+        "top": 734.0,
+        "bottom": 742.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "606518550963",
+        "x0": 124.0,
+        "x1": 179.16,
+        "width": 55.16,
+        "top": 744.0,
+        "bottom": 752.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-53.000,00",
+    "row_base_y": 733.92
+  },
+  {
+    "source_file": "REK_WAFIQ_SEP_OUTPUT_PERFECT.pdf",
+    "page": 3,
+    "row": 3,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke Sinar Garut Intan LP\n606512236824",
+    "lines": [
+      "Pembayaran QR",
+      "ke Sinar Garut Intan LP",
+      "606512236824"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 124.0,
+        "x1": 181.52,
+        "width": 57.52,
+        "top": 310.0,
+        "bottom": 318.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "ke Sinar Garut Intan LP",
+        "x0": 124.0,
+        "x1": 204.68,
+        "width": 80.68,
+        "top": 320.0,
+        "bottom": 328.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "606512236824",
+        "x0": 124.0,
+        "x1": 177.87,
+        "width": 53.87,
+        "top": 330.0,
+        "bottom": 338.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-32.000,00",
+    "row_base_y": 319.92
+  },
+  {
+    "source_file": "REK_WAFIQ_SEP_OUTPUT_PERFECT.pdf",
+    "page": 3,
+    "row": 6,
+    "category": "BI_FAST",
+    "line_count": 4,
+    "full_text": "Transfer BI Fast\nDari BCA\nBENNY MANULLANG SH 5410456798\nBop",
+    "lines": [
+      "Transfer BI Fast",
+      "Dari BCA",
+      "BENNY MANULLANG SH 5410456798",
+      "Bop"
+    ],
+    "line_details": [
+      {
+        "text": "Transfer BI Fast",
+        "x0": 124.0,
+        "x1": 179.96,
+        "width": 55.96,
+        "top": 443.0,
+        "bottom": 451.0,
+        "rel_y": -14.92
+      },
+      {
+        "text": "Dari BCA",
+        "x0": 124.0,
+        "x1": 155.68,
+        "width": 31.68,
+        "top": 453.0,
+        "bottom": 461.0,
+        "rel_y": -4.92
+      },
+      {
+        "text": "BENNY MANULLANG SH 5410456798",
+        "x0": 124.0,
+        "x1": 258.92,
+        "width": 134.92,
+        "top": 463.0,
+        "bottom": 471.0,
+        "rel_y": 5.08
+      },
+      {
+        "text": "Bop",
+        "x0": 124.0,
+        "x1": 138.43,
+        "width": 14.43,
+        "top": 473.0,
+        "bottom": 481.0,
+        "rel_y": 15.08
+      }
+    ],
+    "tipe": "CR",
+    "nominal": "+200.000,00",
+    "row_base_y": 457.92
+  },
+  {
+    "source_file": "REK_WAFIQ_SEP_OUTPUT_PERFECT.pdf",
+    "page": 3,
+    "row": 7,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke JCO DONUTS n COFFEE SA SE\n606638752862",
+    "lines": [
+      "Pembayaran QR",
+      "ke JCO DONUTS n COFFEE SA SE",
+      "606638752862"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 124.0,
+        "x1": 181.52,
+        "width": 57.52,
+        "top": 494.0,
+        "bottom": 502.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "ke JCO DONUTS n COFFEE SA SE",
+        "x0": 124.0,
+        "x1": 244.48,
+        "width": 120.48,
+        "top": 504.0,
+        "bottom": 512.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "606638752862",
+        "x0": 124.0,
+        "x1": 179.71,
+        "width": 55.71,
+        "top": 514.0,
+        "bottom": 522.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-72.000,00",
+    "row_base_y": 503.92
+  },
+  {
+    "source_file": "REK_WAFIQ_SEP_OUTPUT_PERFECT.pdf",
+    "page": 3,
+    "row": 8,
+    "category": "GENERAL_TRANSFER",
+    "line_count": 2,
+    "full_text": "Pembayaran Finnet Indonesia, PT\n880446032152130",
+    "lines": [
+      "Pembayaran Finnet Indonesia, PT",
+      "880446032152130"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran Finnet Indonesia, PT",
+        "x0": 124.0,
+        "x1": 242.36,
+        "width": 118.36,
+        "top": 545.0,
+        "bottom": 553.0,
+        "rel_y": -4.92
+      },
+      {
+        "text": "880446032152130",
+        "x0": 124.0,
+        "x1": 191.19,
+        "width": 67.19,
+        "top": 555.0,
+        "bottom": 563.0,
+        "rel_y": 5.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-15.000,00",
+    "row_base_y": 549.92
+  },
+  {
+    "source_file": "REK_WAFIQ_SEP_OUTPUT_PERFECT.pdf",
+    "page": 3,
+    "row": 12,
+    "category": "GENERAL_TRANSFER",
+    "line_count": 2,
+    "full_text": "Pembayaran Finnet Indonesia, PT\n880446032223516",
+    "lines": [
+      "Pembayaran Finnet Indonesia, PT",
+      "880446032223516"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran Finnet Indonesia, PT",
+        "x0": 124.0,
+        "x1": 242.36,
+        "width": 118.36,
+        "top": 729.0,
+        "bottom": 737.0,
+        "rel_y": -4.92
+      },
+      {
+        "text": "880446032223516",
+        "x0": 124.0,
+        "x1": 192.31,
+        "width": 68.31,
+        "top": 739.0,
+        "bottom": 747.0,
+        "rel_y": 5.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-50.000,00",
+    "row_base_y": 733.92
+  },
+  {
+    "source_file": "REK_WAFIQ_SEP_OUTPUT_PERFECT.pdf",
+    "page": 4,
+    "row": 1,
+    "category": "ATM_WITHDRAWAL",
+    "line_count": 2,
+    "full_text": "Penarikan tunai di ATM\nBANK MANDIRI SRG PB 3442122PLAMUNAN 01",
+    "lines": [
+      "Penarikan tunai di ATM",
+      "BANK MANDIRI SRG PB 3442122PLAMUNAN 01"
+    ],
+    "line_details": [
+      {
+        "text": "Penarikan tunai di ATM",
+        "x0": 124.0,
+        "x1": 205.15,
+        "width": 81.15,
+        "top": 223.0,
+        "bottom": 231.0,
+        "rel_y": -4.92
+      },
+      {
+        "text": "BANK MANDIRI SRG PB 3442122PLAMUNAN 01",
+        "x0": 124.0,
+        "x1": 292.92,
+        "width": 168.92,
+        "top": 233.0,
+        "bottom": 241.0,
+        "rel_y": 5.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-850.000,00",
+    "row_base_y": 227.92
+  },
+  {
+    "source_file": "REK_WAFIQ_SEP_OUTPUT_PERFECT.pdf",
+    "page": 4,
+    "row": 3,
+    "category": "BI_FAST",
+    "line_count": 3,
+    "full_text": "Transfer BI Fast\nDari BTN\nDEBORA DIAN FITRESIA 16201700024655",
+    "lines": [
+      "Transfer BI Fast",
+      "Dari BTN",
+      "DEBORA DIAN FITRESIA 16201700024655"
+    ],
+    "line_details": [
+      {
+        "text": "Transfer BI Fast",
+        "x0": 124.0,
+        "x1": 179.96,
+        "width": 55.96,
+        "top": 310.0,
+        "bottom": 318.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "Dari BTN",
+        "x0": 124.0,
+        "x1": 155.68,
+        "width": 31.68,
+        "top": 320.0,
+        "bottom": 328.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "DEBORA DIAN FITRESIA 16201700024655",
+        "x0": 124.0,
+        "x1": 274.75,
+        "width": 150.75,
+        "top": 330.0,
+        "bottom": 338.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "CR",
+    "nominal": "+300.000,00",
+    "row_base_y": 319.92
+  },
+  {
+    "source_file": "REK_WAFIQ_SEP_OUTPUT_PERFECT.pdf",
+    "page": 4,
+    "row": 4,
+    "category": "BI_FAST",
+    "line_count": 4,
+    "full_text": "Transfer BI Fast\nDari\nADHIKARYA PUTRA 6289525849008\nDANA20260628DANAIDJ1010O9929931242ADHIKA",
+    "lines": [
+      "Transfer BI Fast",
+      "Dari",
+      "ADHIKARYA PUTRA 6289525849008",
+      "DANA20260628DANAIDJ1010O9929931242ADHIKA"
+    ],
+    "line_details": [
+      {
+        "text": "Transfer BI Fast",
+        "x0": 124.0,
+        "x1": 179.96,
+        "width": 55.96,
+        "top": 351.0,
+        "bottom": 359.0,
+        "rel_y": -14.92
+      },
+      {
+        "text": "Dari",
+        "x0": 124.0,
+        "x1": 138.2,
+        "width": 14.2,
+        "top": 361.0,
+        "bottom": 369.0,
+        "rel_y": -4.92
+      },
+      {
+        "text": "ADHIKARYA PUTRA 6289525849008",
+        "x0": 124.0,
+        "x1": 257.06,
+        "width": 133.06,
+        "top": 371.0,
+        "bottom": 379.0,
+        "rel_y": 5.08
+      },
+      {
+        "text": "DANA20260628DANAIDJ1010O9929931242ADHIKA",
+        "x0": 124.0,
+        "x1": 310.46,
+        "width": 186.46,
+        "top": 381.0,
+        "bottom": 389.0,
+        "rel_y": 15.08
+      }
+    ],
+    "tipe": "CR",
+    "nominal": "+10.000,00",
+    "row_base_y": 365.92
+  },
+  {
+    "source_file": "REK_WAFIQ_SEP_OUTPUT_PERFECT.pdf",
+    "page": 4,
+    "row": 5,
+    "category": "BANK_FEES_ADMIN",
+    "line_count": 3,
+    "full_text": "Biaya transaksi bank\nPembayaran Yayasan Sasmita Jaya\n261070007220",
+    "lines": [
+      "Biaya transaksi bank",
+      "Pembayaran Yayasan Sasmita Jaya",
+      "261070007220"
+    ],
+    "line_details": [
+      {
+        "text": "Biaya transaksi bank",
+        "x0": 124.0,
+        "x1": 195.76,
+        "width": 71.76,
+        "top": 402.0,
+        "bottom": 410.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "Pembayaran Yayasan Sasmita Jaya",
+        "x0": 124.0,
+        "x1": 248.55,
+        "width": 124.55,
+        "top": 412.0,
+        "bottom": 420.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "261070007220",
+        "x0": 124.0,
+        "x1": 179.92,
+        "width": 55.92,
+        "top": 422.0,
+        "bottom": 430.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-1.500,00",
+    "row_base_y": 411.92
+  },
+  {
+    "source_file": "REK_WAFIQ_SEP_OUTPUT_PERFECT.pdf",
+    "page": 4,
+    "row": 6,
+    "category": "GENERAL_TRANSFER",
+    "line_count": 2,
+    "full_text": "Pembayaran Yayasan Sasmita Jaya\n261070007220",
+    "lines": [
+      "Pembayaran Yayasan Sasmita Jaya",
+      "261070007220"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran Yayasan Sasmita Jaya",
+        "x0": 124.0,
+        "x1": 248.55,
+        "width": 124.55,
+        "top": 453.0,
+        "bottom": 461.0,
+        "rel_y": -4.92
+      },
+      {
+        "text": "261070007220",
+        "x0": 124.0,
+        "x1": 179.92,
+        "width": 55.92,
+        "top": 463.0,
+        "bottom": 471.0,
+        "rel_y": 5.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-300.000,00",
+    "row_base_y": 457.92
+  },
+  {
+    "source_file": "REK_WAFIQ_SEP_OUTPUT_PERFECT.pdf",
+    "page": 4,
+    "row": 9,
+    "category": "MANDIRI_INHOUSE",
+    "line_count": 2,
+    "full_text": "Transfer dari BANK MANDIRI\nIRAS TIUR MARIA 9000002688266",
+    "lines": [
+      "Transfer dari BANK MANDIRI",
+      "IRAS TIUR MARIA 9000002688266"
+    ],
+    "line_details": [
+      {
+        "text": "Transfer dari BANK MANDIRI",
+        "x0": 124.0,
+        "x1": 225.72,
+        "width": 101.72,
+        "top": 591.0,
+        "bottom": 599.0,
+        "rel_y": -4.92
+      },
+      {
+        "text": "IRAS TIUR MARIA 9000002688266",
+        "x0": 124.0,
+        "x1": 251.38,
+        "width": 127.38,
+        "top": 601.0,
+        "bottom": 609.0,
+        "rel_y": 5.08
+      }
+    ],
+    "tipe": "CR",
+    "nominal": "+150.000,00",
+    "row_base_y": 595.92
+  },
+  {
+    "source_file": "REK_WAFIQ_OKT_OUTPUT_PERFECT.pdf",
+    "page": 1,
+    "row": 4,
+    "category": "PAYROLL_CORPORATE",
+    "line_count": 4,
+    "full_text": "Transfer BI Fast\nDari BCA\nKARINA AMALIA DARMAW 2453854787\nCICIL GAJI JUNI 2026 - ROY",
+    "lines": [
+      "Transfer BI Fast",
+      "Dari BCA",
+      "KARINA AMALIA DARMAW 2453854787",
+      "CICIL GAJI JUNI 2026 - ROY"
+    ],
+    "line_details": [
+      {
+        "text": "Transfer BI Fast",
+        "x0": 124.0,
+        "x1": 179.96,
+        "width": 55.96,
+        "top": 467.0,
+        "bottom": 475.0,
+        "rel_y": -14.92
+      },
+      {
+        "text": "Dari BCA",
+        "x0": 124.0,
+        "x1": 155.68,
+        "width": 31.68,
+        "top": 477.0,
+        "bottom": 485.0,
+        "rel_y": -4.92
+      },
+      {
+        "text": "KARINA AMALIA DARMAW 2453854787",
+        "x0": 124.0,
+        "x1": 264.96,
+        "width": 140.96,
+        "top": 487.0,
+        "bottom": 495.0,
+        "rel_y": 5.08
+      },
+      {
+        "text": "CICIL GAJI JUNI 2026 - ROY",
+        "x0": 124.0,
+        "x1": 225.16,
+        "width": 101.16,
+        "top": 497.0,
+        "bottom": 505.0,
+        "rel_y": 15.08
+      }
+    ],
+    "tipe": "CR",
+    "nominal": "+2.500.000,00",
+    "row_base_y": 481.92
+  },
+  {
+    "source_file": "REK_WAFIQ_OKT_OUTPUT_PERFECT.pdf",
+    "page": 1,
+    "row": 6,
+    "category": "BI_FAST",
+    "line_count": 4,
+    "full_text": "Transfer BI Fast\nKe BCA\nKARINA AMALIA DARMAW 2452998221\nBAYAR ARISAN WKWKWK",
+    "lines": [
+      "Transfer BI Fast",
+      "Ke BCA",
+      "KARINA AMALIA DARMAW 2452998221",
+      "BAYAR ARISAN WKWKWK"
+    ],
+    "line_details": [
+      {
+        "text": "Transfer BI Fast",
+        "x0": 124.0,
+        "x1": 179.96,
+        "width": 55.96,
+        "top": 559.0,
+        "bottom": 567.0,
+        "rel_y": -14.92
+      },
+      {
+        "text": "Ke BCA",
+        "x0": 124.0,
+        "x1": 150.64,
+        "width": 26.64,
+        "top": 569.0,
+        "bottom": 577.0,
+        "rel_y": -4.92
+      },
+      {
+        "text": "KARINA AMALIA DARMAW 2452998221",
+        "x0": 124.0,
+        "x1": 263.87,
+        "width": 139.87,
+        "top": 579.0,
+        "bottom": 587.0,
+        "rel_y": 5.08
+      },
+      {
+        "text": "BAYAR ARISAN WKWKWK",
+        "x0": 124.0,
+        "x1": 216.16,
+        "width": 92.16,
+        "top": 589.0,
+        "bottom": 597.0,
+        "rel_y": 15.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-1.500.000,00",
+    "row_base_y": 573.92
+  },
+  {
+    "source_file": "REK_WAFIQ_OKT_OUTPUT_PERFECT.pdf",
+    "page": 2,
+    "row": 1,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke POINT COFFEE INDOMARET\n618517195955",
+    "lines": [
+      "Pembayaran QR",
+      "ke POINT COFFEE INDOMARET",
+      "618517195955"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 124.0,
+        "x1": 181.52,
+        "width": 57.52,
+        "top": 218.0,
+        "bottom": 226.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "ke POINT COFFEE INDOMARET",
+        "x0": 124.0,
+        "x1": 236.64,
+        "width": 112.64,
+        "top": 228.0,
+        "bottom": 236.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "618517195955",
+        "x0": 124.0,
+        "x1": 173.36,
+        "width": 49.36,
+        "top": 238.0,
+        "bottom": 246.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-55.000,00",
+    "row_base_y": 227.92
+  },
+  {
+    "source_file": "REK_WAFIQ_OKT_OUTPUT_PERFECT.pdf",
+    "page": 2,
+    "row": 2,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke SHIHLIN\n607449339601",
+    "lines": [
+      "Pembayaran QR",
+      "ke SHIHLIN",
+      "607449339601"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 124.0,
+        "x1": 181.52,
+        "width": 57.52,
+        "top": 264.0,
+        "bottom": 272.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "ke SHIHLIN",
+        "x0": 124.0,
+        "x1": 164.56,
+        "width": 40.56,
+        "top": 274.0,
+        "bottom": 282.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "607449339601",
+        "x0": 124.0,
+        "x1": 178.08,
+        "width": 54.08,
+        "top": 284.0,
+        "bottom": 292.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-47.000,00",
+    "row_base_y": 273.92
+  },
+  {
+    "source_file": "REK_WAFIQ_OKT_OUTPUT_PERFECT.pdf",
+    "page": 2,
+    "row": 4,
+    "category": "BI_FAST",
+    "line_count": 4,
+    "full_text": "Transfer BI Fast\nKe BCA\nDEBORA DIAN FITRESIA 2453460819\nCICIL DULU KA DEB",
+    "lines": [
+      "Transfer BI Fast",
+      "Ke BCA",
+      "DEBORA DIAN FITRESIA 2453460819",
+      "CICIL DULU KA DEB"
+    ],
+    "line_details": [
+      {
+        "text": "Transfer BI Fast",
+        "x0": 124.0,
+        "x1": 179.96,
+        "width": 55.96,
+        "top": 351.0,
+        "bottom": 359.0,
+        "rel_y": -14.92
+      },
+      {
+        "text": "Ke BCA",
+        "x0": 124.0,
+        "x1": 150.64,
+        "width": 26.64,
+        "top": 361.0,
+        "bottom": 369.0,
+        "rel_y": -4.92
+      },
+      {
+        "text": "DEBORA DIAN FITRESIA 2453460819",
+        "x0": 124.0,
+        "x1": 256.43,
+        "width": 132.43,
+        "top": 371.0,
+        "bottom": 379.0,
+        "rel_y": 5.08
+      },
+      {
+        "text": "CICIL DULU KA DEB",
+        "x0": 124.0,
+        "x1": 194.88,
+        "width": 70.88,
+        "top": 381.0,
+        "bottom": 389.0,
+        "rel_y": 15.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-200.000,00",
+    "row_base_y": 365.92
+  },
+  {
+    "source_file": "REK_WAFIQ_OKT_OUTPUT_PERFECT.pdf",
+    "page": 2,
+    "row": 5,
+    "category": "ATM_WITHDRAWAL",
+    "line_count": 3,
+    "full_text": "Penarikan tunai tanpa kartu\nDi ATM SRG PB PBKALODRAN 01\n089622130569",
+    "lines": [
+      "Penarikan tunai tanpa kartu",
+      "Di ATM SRG PB PBKALODRAN 01",
+      "089622130569"
+    ],
+    "line_details": [
+      {
+        "text": "Penarikan tunai tanpa kartu",
+        "x0": 124.0,
+        "x1": 220.68,
+        "width": 96.68,
+        "top": 402.0,
+        "bottom": 410.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "Di ATM SRG PB PBKALODRAN 01",
+        "x0": 124.0,
+        "x1": 241.84,
+        "width": 117.84,
+        "top": 412.0,
+        "bottom": 420.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "089622130569",
+        "x0": 124.0,
+        "x1": 178.91,
+        "width": 54.91,
+        "top": 422.0,
+        "bottom": 430.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-200.000,00",
+    "row_base_y": 411.92
+  },
+  {
+    "source_file": "REK_WAFIQ_OKT_OUTPUT_PERFECT.pdf",
+    "page": 2,
+    "row": 6,
+    "category": "GENERAL_TRANSFER",
+    "line_count": 2,
+    "full_text": "Pembayaran Finnet Indonesia, PT\n880446032512440",
+    "lines": [
+      "Pembayaran Finnet Indonesia, PT",
+      "880446032512440"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran Finnet Indonesia, PT",
+        "x0": 124.0,
+        "x1": 242.36,
+        "width": 118.36,
+        "top": 453.0,
+        "bottom": 461.0,
+        "rel_y": -4.92
+      },
+      {
+        "text": "880446032512440",
+        "x0": 124.0,
+        "x1": 192.83,
+        "width": 68.83,
+        "top": 463.0,
+        "bottom": 471.0,
+        "rel_y": 5.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-75.000,00",
+    "row_base_y": 457.92
+  },
+  {
+    "source_file": "REK_WAFIQ_OKT_OUTPUT_PERFECT.pdf",
+    "page": 2,
+    "row": 9,
+    "category": "BI_FAST",
+    "line_count": 4,
+    "full_text": "Transfer BI Fast\nDari\nROY DARWIN REZERIUS 6289622130569\nDANA20260706DANAIDJ1010O9910080162ROYDA",
+    "lines": [
+      "Transfer BI Fast",
+      "Dari",
+      "ROY DARWIN REZERIUS 6289622130569",
+      "DANA20260706DANAIDJ1010O9910080162ROYDA"
+    ],
+    "line_details": [
+      {
+        "text": "Transfer BI Fast",
+        "x0": 124.0,
+        "x1": 179.96,
+        "width": 55.96,
+        "top": 581.0,
+        "bottom": 589.0,
+        "rel_y": -14.92
+      },
+      {
+        "text": "Dari",
+        "x0": 124.0,
+        "x1": 138.2,
+        "width": 14.2,
+        "top": 591.0,
+        "bottom": 599.0,
+        "rel_y": -4.92
+      },
+      {
+        "text": "ROY DARWIN REZERIUS 6289622130569",
+        "x0": 124.0,
+        "x1": 270.87,
+        "width": 146.87,
+        "top": 601.0,
+        "bottom": 609.0,
+        "rel_y": 5.08
+      },
+      {
+        "text": "DANA20260706DANAIDJ1010O9910080162ROYDA",
+        "x0": 124.0,
+        "x1": 309.71,
+        "width": 185.71,
+        "top": 611.0,
+        "bottom": 619.0,
+        "rel_y": 15.08
+      }
+    ],
+    "tipe": "CR",
+    "nominal": "+37.000,00",
+    "row_base_y": 595.92
+  },
+  {
+    "source_file": "REK_WAFIQ_OKT_OUTPUT_PERFECT.pdf",
+    "page": 2,
+    "row": 12,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke WARTEG 3 PUTRA BAHARI\n607465373774",
+    "lines": [
+      "Pembayaran QR",
+      "ke WARTEG 3 PUTRA BAHARI",
+      "607465373774"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 124.0,
+        "x1": 181.52,
+        "width": 57.52,
+        "top": 724.0,
+        "bottom": 732.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "ke WARTEG 3 PUTRA BAHARI",
+        "x0": 124.0,
+        "x1": 229.92,
+        "width": 105.92,
+        "top": 734.0,
+        "bottom": 742.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "607465373774",
+        "x0": 124.0,
+        "x1": 177.77,
+        "width": 53.77,
+        "top": 744.0,
+        "bottom": 752.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-37.000,00",
+    "row_base_y": 733.92
+  },
+  {
+    "source_file": "REK_WAFIQ_OKT_OUTPUT_PERFECT.pdf",
+    "page": 3,
+    "row": 1,
+    "category": "BI_FAST",
+    "line_count": 4,
+    "full_text": "Transfer BI Fast\nDari BCA\nDEBORA DIAN FITRESIA 2453460819\nKACANG IJO",
+    "lines": [
+      "Transfer BI Fast",
+      "Dari BCA",
+      "DEBORA DIAN FITRESIA 2453460819",
+      "KACANG IJO"
+    ],
+    "line_details": [
+      {
+        "text": "Transfer BI Fast",
+        "x0": 124.0,
+        "x1": 179.96,
+        "width": 55.96,
+        "top": 213.0,
+        "bottom": 221.0,
+        "rel_y": -14.92
+      },
+      {
+        "text": "Dari BCA",
+        "x0": 124.0,
+        "x1": 155.68,
+        "width": 31.68,
+        "top": 223.0,
+        "bottom": 231.0,
+        "rel_y": -4.92
+      },
+      {
+        "text": "DEBORA DIAN FITRESIA 2453460819",
+        "x0": 124.0,
+        "x1": 256.43,
+        "width": 132.43,
+        "top": 233.0,
+        "bottom": 241.0,
+        "rel_y": 5.08
+      },
+      {
+        "text": "KACANG IJO",
+        "x0": 124.0,
+        "x1": 169.84,
+        "width": 45.84,
+        "top": 243.0,
+        "bottom": 251.0,
+        "rel_y": 15.08
+      }
+    ],
+    "tipe": "CR",
+    "nominal": "+65.000,00",
+    "row_base_y": 227.92
+  },
+  {
+    "source_file": "REK_WAFIQ_OKT_OUTPUT_PERFECT.pdf",
+    "page": 3,
+    "row": 3,
+    "category": "PAYROLL_CORPORATE",
+    "line_count": 4,
+    "full_text": "Transfer BI Fast\nDari BCA\nKARINA AMALIA DARMAW 2453854787\nPELUNASAN GAJI JUNI 2026 - ROY",
+    "lines": [
+      "Transfer BI Fast",
+      "Dari BCA",
+      "KARINA AMALIA DARMAW 2453854787",
+      "PELUNASAN GAJI JUNI 2026 - ROY"
+    ],
+    "line_details": [
+      {
+        "text": "Transfer BI Fast",
+        "x0": 124.0,
+        "x1": 179.96,
+        "width": 55.96,
+        "top": 305.0,
+        "bottom": 313.0,
+        "rel_y": -14.92
+      },
+      {
+        "text": "Dari BCA",
+        "x0": 124.0,
+        "x1": 155.68,
+        "width": 31.68,
+        "top": 315.0,
+        "bottom": 323.0,
+        "rel_y": -4.92
+      },
+      {
+        "text": "KARINA AMALIA DARMAW 2453854787",
+        "x0": 124.0,
+        "x1": 264.96,
+        "width": 140.96,
+        "top": 325.0,
+        "bottom": 333.0,
+        "rel_y": 5.08
+      },
+      {
+        "text": "PELUNASAN GAJI JUNI 2026 - ROY",
+        "x0": 124.0,
+        "x1": 251.76,
+        "width": 127.76,
+        "top": 335.0,
+        "bottom": 343.0,
+        "rel_y": 15.08
+      }
+    ],
+    "tipe": "CR",
+    "nominal": "+3.356.000,00",
+    "row_base_y": 319.92
+  },
+  {
+    "source_file": "REK_WAFIQ_OKT_OUTPUT_PERFECT.pdf",
+    "page": 3,
+    "row": 6,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke Warkop Agam Official\n607476212871",
+    "lines": [
+      "Pembayaran QR",
+      "ke Warkop Agam Official",
+      "607476212871"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 124.0,
+        "x1": 181.52,
+        "width": 57.52,
+        "top": 448.0,
+        "bottom": 456.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "ke Warkop Agam Official",
+        "x0": 124.0,
+        "x1": 210.76,
+        "width": 86.76,
+        "top": 458.0,
+        "bottom": 466.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "607476212871",
+        "x0": 124.0,
+        "x1": 174.56,
+        "width": 50.56,
+        "top": 468.0,
+        "bottom": 476.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-82.000,00",
+    "row_base_y": 457.92
+  },
+  {
+    "source_file": "REK_WAFIQ_OKT_OUTPUT_PERFECT.pdf",
+    "page": 4,
+    "row": 5,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke RESERVE SA SERANG 1 1324\n607112734591",
+    "lines": [
+      "Pembayaran QR",
+      "ke RESERVE SA SERANG 1 1324",
+      "607112734591"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 124.0,
+        "x1": 181.52,
+        "width": 57.52,
+        "top": 402.0,
+        "bottom": 410.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "ke RESERVE SA SERANG 1 1324",
+        "x0": 124.0,
+        "x1": 235.03,
+        "width": 111.03,
+        "top": 412.0,
+        "bottom": 420.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "607112734591",
+        "x0": 124.0,
+        "x1": 173.07,
+        "width": 49.07,
+        "top": 422.0,
+        "bottom": 430.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-35.000,00",
+    "row_base_y": 411.92
+  },
+  {
+    "source_file": "REK_WAFIQ_OKT_OUTPUT_PERFECT.pdf",
+    "page": 4,
+    "row": 10,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke Toko lidiya\n607521609351",
+    "lines": [
+      "Pembayaran QR",
+      "ke Toko lidiya",
+      "607521609351"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 124.0,
+        "x1": 181.52,
+        "width": 57.52,
+        "top": 632.0,
+        "bottom": 640.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "ke Toko lidiya",
+        "x0": 124.0,
+        "x1": 171.93,
+        "width": 47.93,
+        "top": 642.0,
+        "bottom": 650.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "607521609351",
+        "x0": 124.0,
+        "x1": 176.48,
+        "width": 52.48,
+        "top": 652.0,
+        "bottom": 660.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-13.000,00",
+    "row_base_y": 641.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 1,
+    "row": 1,
+    "category": "BANK_FEES_ADMIN",
+    "line_count": 3,
+    "full_text": "Biaya transaksi bank\nPembayaran Danatopup\n895080089622230559",
+    "lines": [
+      "Biaya transaksi bank",
+      "Pembayaran Danatopup",
+      "895080089622230559"
+    ],
+    "line_details": [
+      {
+        "text": "Biaya transaksi bank",
+        "x0": 123.93,
+        "x1": 195.69,
+        "width": 71.76,
+        "top": 333.72,
+        "bottom": 341.72,
+        "rel_y": -10.2
+      },
+      {
+        "text": "Pembayaran Danatopup",
+        "x0": 123.93,
+        "x1": 209.99,
+        "width": 86.06,
+        "top": 343.72,
+        "bottom": 351.72,
+        "rel_y": -0.2
+      },
+      {
+        "text": "895080089622230559",
+        "x0": 123.93,
+        "x1": 206.71,
+        "width": 82.78,
+        "top": 353.38,
+        "bottom": 361.72,
+        "rel_y": 9.46
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-1.000,00",
+    "row_base_y": 343.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 1,
+    "row": 2,
+    "category": "EWALLET_BILLER",
+    "line_count": 2,
+    "full_text": "Pembayaran Danatopup\n895080089622230559",
+    "lines": [
+      "Pembayaran Danatopup",
+      "895080089622230559"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran Danatopup",
+        "x0": 123.93,
+        "x1": 209.99,
+        "width": 86.06,
+        "top": 384.72,
+        "bottom": 392.72,
+        "rel_y": -5.2
+      },
+      {
+        "text": "895080089622230559",
+        "x0": 123.93,
+        "x1": 206.71,
+        "width": 82.78,
+        "top": 394.38,
+        "bottom": 402.72,
+        "rel_y": 4.46
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-50.000,00",
+    "row_base_y": 389.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 1,
+    "row": 3,
+    "category": "ATM_WITHDRAWAL",
+    "line_count": 3,
+    "full_text": "Penarikan tunai tanpa kartu\nDi ATM SRG AM PURI ANGREK 0\n0089622230559",
+    "lines": [
+      "Penarikan tunai tanpa kartu",
+      "Di ATM SRG AM PURI ANGREK 0",
+      "0089622230559"
+    ],
+    "line_details": [
+      {
+        "text": "Penarikan tunai tanpa kartu",
+        "x0": 123.93,
+        "x1": 220.61,
+        "width": 96.68,
+        "top": 425.72,
+        "bottom": 433.72,
+        "rel_y": -10.2
+      },
+      {
+        "text": "Di ATM SRG AM PURI ANGREK 0",
+        "x0": 123.93,
+        "x1": 239.84,
+        "width": 115.91,
+        "top": 435.72,
+        "bottom": 443.72,
+        "rel_y": -0.2
+      },
+      {
+        "text": "0089622230559",
+        "x0": 123.93,
+        "x1": 182.66,
+        "width": 58.73,
+        "top": 445.38,
+        "bottom": 453.72,
+        "rel_y": 9.46
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-100.000,00",
+    "row_base_y": 435.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 1,
+    "row": 4,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke IDM QRIS LIVIN\n610718434334",
+    "lines": [
+      "Pembayaran QR",
+      "ke IDM QRIS LIVIN",
+      "610718434334"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 123.93,
+        "x1": 181.44,
+        "width": 57.52,
+        "top": 471.72,
+        "bottom": 479.72,
+        "rel_y": -10.2
+      },
+      {
+        "text": "ke IDM QRIS LIVIN",
+        "x0": 123.93,
+        "x1": 189.13,
+        "width": 65.2,
+        "top": 481.72,
+        "bottom": 489.72,
+        "rel_y": -0.2
+      },
+      {
+        "text": "610718434334",
+        "x0": 123.93,
+        "x1": 175.13,
+        "width": 51.2,
+        "top": 491.72,
+        "bottom": 499.72,
+        "rel_y": 9.8
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-11.900,00",
+    "row_base_y": 481.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 1,
+    "row": 5,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke JANJIA BISTRO AND SPACE\n604172513088",
+    "lines": [
+      "Pembayaran QR",
+      "ke JANJIA BISTRO AND SPACE",
+      "604172513088"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 123.93,
+        "x1": 181.44,
+        "width": 57.52,
+        "top": 517.72,
+        "bottom": 525.72,
+        "rel_y": -10.2
+      },
+      {
+        "text": "ke JANJIA BISTRO AND SPACE",
+        "x0": 123.93,
+        "x1": 235.0,
+        "width": 111.07,
+        "top": 527.72,
+        "bottom": 535.72,
+        "rel_y": -0.2
+      },
+      {
+        "text": "604172513088",
+        "x0": 123.93,
+        "x1": 176.37,
+        "width": 52.44,
+        "top": 537.72,
+        "bottom": 545.72,
+        "rel_y": 9.8
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-235.620,00",
+    "row_base_y": 527.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 1,
+    "row": 6,
+    "category": "ATM_WITHDRAWAL",
+    "line_count": 3,
+    "full_text": "Penarikan tunai tanpa kartu\nDi ATM SRG IM TMN CIRUAS\n0089622230559",
+    "lines": [
+      "Penarikan tunai tanpa kartu",
+      "Di ATM SRG IM TMN CIRUAS",
+      "0089622230559"
+    ],
+    "line_details": [
+      {
+        "text": "Penarikan tunai tanpa kartu",
+        "x0": 123.93,
+        "x1": 220.61,
+        "width": 96.68,
+        "top": 563.72,
+        "bottom": 571.72,
+        "rel_y": -10.2
+      },
+      {
+        "text": "Di ATM SRG IM TMN CIRUAS",
+        "x0": 123.93,
+        "x1": 226.41,
+        "width": 102.48,
+        "top": 573.72,
+        "bottom": 581.72,
+        "rel_y": -0.2
+      },
+      {
+        "text": "0089622230559",
+        "x0": 123.93,
+        "x1": 182.66,
+        "width": 58.73,
+        "top": 583.38,
+        "bottom": 591.72,
+        "rel_y": 9.46
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-100.000,00",
+    "row_base_y": 573.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 1,
+    "row": 7,
+    "category": "ECOMMERCE",
+    "line_count": 3,
+    "full_text": "Biaya transaksi bank\nPembayaran Shopee Indonesia\n89608111200749",
+    "lines": [
+      "Biaya transaksi bank",
+      "Pembayaran Shopee Indonesia",
+      "89608111200749"
+    ],
+    "line_details": [
+      {
+        "text": "Biaya transaksi bank",
+        "x0": 123.93,
+        "x1": 196.79,
+        "width": 72.86,
+        "top": 609.38,
+        "bottom": 617.38,
+        "rel_y": -10.54
+      },
+      {
+        "text": "Pembayaran Shopee Indonesia",
+        "x0": 123.93,
+        "x1": 235.05,
+        "width": 111.12,
+        "top": 619.38,
+        "bottom": 627.38,
+        "rel_y": -0.54
+      },
+      {
+        "text": "89608111200749",
+        "x0": 123.93,
+        "x1": 186.2,
+        "width": 62.27,
+        "top": 628.62,
+        "bottom": 636.62,
+        "rel_y": 8.7
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-1.000,00",
+    "row_base_y": 619.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 1,
+    "row": 8,
+    "category": "ECOMMERCE",
+    "line_count": 2,
+    "full_text": "Pembayaran Shopee Indonesia\n89608111200749",
+    "lines": [
+      "Pembayaran Shopee Indonesia",
+      "89608111200749"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran Shopee Indonesia",
+        "x0": 123.93,
+        "x1": 235.99,
+        "width": 112.06,
+        "top": 659.62,
+        "bottom": 667.62,
+        "rel_y": -6.3
+      },
+      {
+        "text": "89608111200749",
+        "x0": 123.93,
+        "x1": 186.2,
+        "width": 62.27,
+        "top": 668.55,
+        "bottom": 676.55,
+        "rel_y": 2.63
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-45.000,00",
+    "row_base_y": 665.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 2,
+    "row": 1,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke RESERVE SA SERANG 1 1324\n604189508150",
+    "lines": [
+      "Pembayaran QR",
+      "ke RESERVE SA SERANG 1 1324",
+      "604189508150"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 124.0,
+        "x1": 181.52,
+        "width": 57.52,
+        "top": 218.0,
+        "bottom": 226.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "ke RESERVE SA SERANG 1 1324",
+        "x0": 124.0,
+        "x1": 235.03,
+        "width": 111.03,
+        "top": 228.0,
+        "bottom": 236.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "604189508150",
+        "x0": 124.0,
+        "x1": 177.88,
+        "width": 53.88,
+        "top": 238.0,
+        "bottom": 246.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-74.000,00",
+    "row_base_y": 227.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 2,
+    "row": 4,
+    "category": "BI_FAST",
+    "line_count": 4,
+    "full_text": "Transfer BI Fast\nDari\nDIOR MARTUMBUR SIHOM 6282165767466\nDANA20260419DANAIDJ1010O9926940582DIORM",
+    "lines": [
+      "Transfer BI Fast",
+      "Dari",
+      "DIOR MARTUMBUR SIHOM 6282165767466",
+      "DANA20260419DANAIDJ1010O9926940582DIORM"
+    ],
+    "line_details": [
+      {
+        "text": "Transfer BI Fast",
+        "x0": 124.0,
+        "x1": 179.96,
+        "width": 55.96,
+        "top": 351.0,
+        "bottom": 359.0,
+        "rel_y": -14.92
+      },
+      {
+        "text": "Dari",
+        "x0": 124.0,
+        "x1": 138.2,
+        "width": 14.2,
+        "top": 361.0,
+        "bottom": 369.0,
+        "rel_y": -4.92
+      },
+      {
+        "text": "DIOR MARTUMBUR SIHOM 6282165767466",
+        "x0": 124.0,
+        "x1": 279.8,
+        "width": 155.8,
+        "top": 371.0,
+        "bottom": 379.0,
+        "rel_y": 5.08
+      },
+      {
+        "text": "DANA20260419DANAIDJ1010O9926940582DIORM",
+        "x0": 124.0,
+        "x1": 308.79,
+        "width": 184.79,
+        "top": 381.0,
+        "bottom": 389.0,
+        "rel_y": 15.08
+      }
+    ],
+    "tipe": "CR",
+    "nominal": "+100.000,00",
+    "row_base_y": 365.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 2,
+    "row": 5,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke TESNAMON JAYA ABADI\n604592559200",
+    "lines": [
+      "Pembayaran QR",
+      "ke TESNAMON JAYA ABADI",
+      "604592559200"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 124.0,
+        "x1": 181.52,
+        "width": 57.52,
+        "top": 402.0,
+        "bottom": 410.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "ke TESNAMON JAYA ABADI",
+        "x0": 124.0,
+        "x1": 223.12,
+        "width": 99.12,
+        "top": 412.0,
+        "bottom": 420.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "604592559200",
+        "x0": 124.0,
+        "x1": 181.37,
+        "width": 57.37,
+        "top": 422.0,
+        "bottom": 430.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-95.000,00",
+    "row_base_y": 411.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 2,
+    "row": 6,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke EMPAT COFFEE AND SPACE SE\n604197227441",
+    "lines": [
+      "Pembayaran QR",
+      "ke EMPAT COFFEE AND SPACE SE",
+      "604197227441"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 124.0,
+        "x1": 181.52,
+        "width": 57.52,
+        "top": 448.0,
+        "bottom": 456.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "ke EMPAT COFFEE AND SPACE SE",
+        "x0": 124.0,
+        "x1": 248.15,
+        "width": 124.15,
+        "top": 458.0,
+        "bottom": 466.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "604197227441",
+        "x0": 124.0,
+        "x1": 174.59,
+        "width": 50.59,
+        "top": 468.0,
+        "bottom": 476.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-68.000,00",
+    "row_base_y": 457.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 2,
+    "row": 7,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke Martabak family - Jl k...\n604193619757",
+    "lines": [
+      "Pembayaran QR",
+      "ke Martabak family - Jl k...",
+      "604193619757"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 124.0,
+        "x1": 181.52,
+        "width": 57.52,
+        "top": 494.0,
+        "bottom": 502.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "ke Martabak family - Jl k...",
+        "x0": 124.0,
+        "x1": 214.85,
+        "width": 90.85,
+        "top": 504.0,
+        "bottom": 512.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "604193619757",
+        "x0": 124.0,
+        "x1": 175.11,
+        "width": 51.11,
+        "top": 514.0,
+        "bottom": 522.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-22.000,00",
+    "row_base_y": 503.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 2,
+    "row": 12,
+    "category": "BANK_FEES_ADMIN",
+    "line_count": 3,
+    "full_text": "Biaya transaksi bank\nPembayaran Mandiri Utama Finance, PT\n012224003110",
+    "lines": [
+      "Biaya transaksi bank",
+      "Pembayaran Mandiri Utama Finance, PT",
+      "012224003110"
+    ],
+    "line_details": [
+      {
+        "text": "Biaya transaksi bank",
+        "x0": 124.0,
+        "x1": 195.76,
+        "width": 71.76,
+        "top": 724.0,
+        "bottom": 732.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "Pembayaran Mandiri Utama Finance, PT",
+        "x0": 124.0,
+        "x1": 265.37,
+        "width": 141.37,
+        "top": 734.0,
+        "bottom": 742.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "012224003110",
+        "x0": 124.0,
+        "x1": 176.04,
+        "width": 52.04,
+        "top": 744.0,
+        "bottom": 752.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-3.500,00",
+    "row_base_y": 733.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 3,
+    "row": 1,
+    "category": "GENERAL_TRANSFER",
+    "line_count": 2,
+    "full_text": "Pembayaran Mandiri Utama Finance, PT\n012224003110",
+    "lines": [
+      "Pembayaran Mandiri Utama Finance, PT",
+      "012224003110"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran Mandiri Utama Finance, PT",
+        "x0": 124.0,
+        "x1": 265.37,
+        "width": 141.37,
+        "top": 223.0,
+        "bottom": 231.0,
+        "rel_y": -4.92
+      },
+      {
+        "text": "012224003110",
+        "x0": 124.0,
+        "x1": 176.04,
+        "width": 52.04,
+        "top": 233.0,
+        "bottom": 241.0,
+        "rel_y": 5.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-",
+    "row_base_y": 227.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 3,
+    "row": 2,
+    "category": "ATM_WITHDRAWAL",
+    "line_count": 3,
+    "full_text": "Penarikan tunai tanpa kartu\nDi ATM CLG CB CITY SQUARE\n0089622230559",
+    "lines": [
+      "Penarikan tunai tanpa kartu",
+      "Di ATM CLG CB CITY SQUARE",
+      "0089622230559"
+    ],
+    "line_details": [
+      {
+        "text": "Penarikan tunai tanpa kartu",
+        "x0": 124.0,
+        "x1": 220.68,
+        "width": 96.68,
+        "top": 264.0,
+        "bottom": 272.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "Di ATM CLG CB CITY SQUARE",
+        "x0": 124.0,
+        "x1": 230.78,
+        "width": 106.78,
+        "top": 274.0,
+        "bottom": 282.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "0089622230559",
+        "x0": 124.0,
+        "x1": 182.73,
+        "width": 58.73,
+        "top": 283.66,
+        "bottom": 292.0,
+        "rel_y": 9.74
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-",
+    "row_base_y": 273.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 3,
+    "row": 3,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke MCDONALD'S SOK 31401\n604616637677",
+    "lines": [
+      "Pembayaran QR",
+      "ke MCDONALD'S SOK 31401",
+      "604616637677"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 124.0,
+        "x1": 181.52,
+        "width": 57.52,
+        "top": 310.0,
+        "bottom": 318.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "ke MCDONALD'S SOK 31401",
+        "x0": 124.0,
+        "x1": 223.56,
+        "width": 99.56,
+        "top": 320.0,
+        "bottom": 328.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "604616637677",
+        "x0": 124.0,
+        "x1": 176.55,
+        "width": 52.55,
+        "top": 330.0,
+        "bottom": 338.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-134.000,00",
+    "row_base_y": 319.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 3,
+    "row": 4,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke MCDONALD''S 31401\n604616784518",
+    "lines": [
+      "Pembayaran QR",
+      "ke MCDONALD''S 31401",
+      "604616784518"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 124.0,
+        "x1": 181.52,
+        "width": 57.52,
+        "top": 356.0,
+        "bottom": 364.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "ke MCDONALD''S 31401",
+        "x0": 124.0,
+        "x1": 208.28,
+        "width": 84.28,
+        "top": 366.0,
+        "bottom": 374.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "604616784518",
+        "x0": 124.0,
+        "x1": 175.68,
+        "width": 51.68,
+        "top": 376.0,
+        "bottom": 384.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-14.500,00",
+    "row_base_y": 365.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 3,
+    "row": 5,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke CHATIME RUKO SERANG AHM\n604613245025",
+    "lines": [
+      "Pembayaran QR",
+      "ke CHATIME RUKO SERANG AHM",
+      "604613245025"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 124.0,
+        "x1": 181.52,
+        "width": 57.52,
+        "top": 402.0,
+        "bottom": 410.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "ke CHATIME RUKO SERANG AHM",
+        "x0": 124.0,
+        "x1": 243.81,
+        "width": 119.81,
+        "top": 412.0,
+        "bottom": 420.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "604613245025",
+        "x0": 124.0,
+        "x1": 178.44,
+        "width": 54.44,
+        "top": 422.0,
+        "bottom": 430.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-35.000,00",
+    "row_base_y": 411.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 3,
+    "row": 6,
+    "category": "BANK_FEES_ADMIN",
+    "line_count": 3,
+    "full_text": "Biaya transaksi bank\nPembayaran Telkom/Indihome\n122402218000",
+    "lines": [
+      "Biaya transaksi bank",
+      "Pembayaran Telkom/Indihome",
+      "122402218000"
+    ],
+    "line_details": [
+      {
+        "text": "Biaya transaksi bank",
+        "x0": 124.0,
+        "x1": 195.76,
+        "width": 71.76,
+        "top": 448.0,
+        "bottom": 456.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "Pembayaran Telkom/Indihome",
+        "x0": 124.0,
+        "x1": 233.08,
+        "width": 109.08,
+        "top": 458.0,
+        "bottom": 466.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "122402218000",
+        "x0": 124.0,
+        "x1": 179.75,
+        "width": 55.75,
+        "top": 467.66,
+        "bottom": 476.0,
+        "rel_y": 9.74
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-3.000,00",
+    "row_base_y": 457.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 3,
+    "row": 7,
+    "category": "GENERAL_TRANSFER",
+    "line_count": 2,
+    "full_text": "Pembayaran Telkom/Indihome\n122402218000",
+    "lines": [
+      "Pembayaran Telkom/Indihome",
+      "122402218000"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran Telkom/Indihome",
+        "x0": 124.0,
+        "x1": 233.08,
+        "width": 109.08,
+        "top": 499.0,
+        "bottom": 507.0,
+        "rel_y": -4.92
+      },
+      {
+        "text": "122402218000",
+        "x0": 124.0,
+        "x1": 179.75,
+        "width": 55.75,
+        "top": 508.66,
+        "bottom": 517.0,
+        "rel_y": 4.74
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-310.800,00",
+    "row_base_y": 503.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 4,
+    "row": 1,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke WARTEG 3 PUTRA BAHARI\n604220902888",
+    "lines": [
+      "Pembayaran QR",
+      "ke WARTEG 3 PUTRA BAHARI",
+      "604220902888"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 124.0,
+        "x1": 181.52,
+        "width": 57.52,
+        "top": 218.0,
+        "bottom": 226.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "ke WARTEG 3 PUTRA BAHARI",
+        "x0": 124.0,
+        "x1": 229.92,
+        "width": 105.92,
+        "top": 228.0,
+        "bottom": 236.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "604220902888",
+        "x0": 124.0,
+        "x1": 181.51,
+        "width": 57.51,
+        "top": 238.0,
+        "bottom": 246.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-47.000,00",
+    "row_base_y": 227.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 4,
+    "row": 7,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke Warung Nasi Masakan Emak\n604222171679",
+    "lines": [
+      "Pembayaran QR",
+      "ke Warung Nasi Masakan Emak",
+      "604222171679"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 124.0,
+        "x1": 181.52,
+        "width": 57.52,
+        "top": 494.0,
+        "bottom": 502.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "ke Warung Nasi Masakan Emak",
+        "x0": 124.0,
+        "x1": 234.02,
+        "width": 110.02,
+        "top": 504.0,
+        "bottom": 512.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "604222171679",
+        "x0": 124.0,
+        "x1": 174.81,
+        "width": 50.81,
+        "top": 514.0,
+        "bottom": 522.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-70.000,00",
+    "row_base_y": 503.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 4,
+    "row": 8,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke IDM QRIS LIVIN\n611315371511",
+    "lines": [
+      "Pembayaran QR",
+      "ke IDM QRIS LIVIN",
+      "611315371511"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 124.0,
+        "x1": 181.52,
+        "width": 57.52,
+        "top": 540.0,
+        "bottom": 548.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "ke IDM QRIS LIVIN",
+        "x0": 124.0,
+        "x1": 189.2,
+        "width": 65.2,
+        "top": 550.0,
+        "bottom": 558.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "611315371511",
+        "x0": 124.0,
+        "x1": 167.22,
+        "width": 43.22,
+        "top": 560.0,
+        "bottom": 568.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-37.400,00",
+    "row_base_y": 549.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 5,
+    "row": 3,
+    "category": "BANK_FEES_ADMIN",
+    "line_count": 3,
+    "full_text": "Biaya transaksi bank\nPembayaran Traveloka Indonesia\n2222285178498290",
+    "lines": [
+      "Biaya transaksi bank",
+      "Pembayaran Traveloka Indonesia",
+      "2222285178498290"
+    ],
+    "line_details": [
+      {
+        "text": "Biaya transaksi bank",
+        "x0": 124.0,
+        "x1": 195.76,
+        "width": 71.76,
+        "top": 310.0,
+        "bottom": 318.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "Pembayaran Traveloka Indonesia",
+        "x0": 124.0,
+        "x1": 241.36,
+        "width": 117.36,
+        "top": 320.0,
+        "bottom": 328.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "2222285178498290",
+        "x0": 124.0,
+        "x1": 195.78,
+        "width": 71.78,
+        "top": 330.0,
+        "bottom": 338.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-1.500,00",
+    "row_base_y": 319.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 5,
+    "row": 4,
+    "category": "GENERAL_TRANSFER",
+    "line_count": 2,
+    "full_text": "Pembayaran Traveloka Indonesia\n2222285178498290",
+    "lines": [
+      "Pembayaran Traveloka Indonesia",
+      "2222285178498290"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran Traveloka Indonesia",
+        "x0": 124.0,
+        "x1": 241.36,
+        "width": 117.36,
+        "top": 361.0,
+        "bottom": 369.0,
+        "rel_y": -4.92
+      },
+      {
+        "text": "2222285178498290",
+        "x0": 124.0,
+        "x1": 195.78,
+        "width": 71.78,
+        "top": 371.0,
+        "bottom": 379.0,
+        "rel_y": 5.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-214.620,00",
+    "row_base_y": 365.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 5,
+    "row": 5,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke WIZZMIE SERANG BANTEN 90\n604255473367",
+    "lines": [
+      "Pembayaran QR",
+      "ke WIZZMIE SERANG BANTEN 90",
+      "604255473367"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 124.0,
+        "x1": 181.52,
+        "width": 57.52,
+        "top": 402.0,
+        "bottom": 410.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "ke WIZZMIE SERANG BANTEN 90",
+        "x0": 124.0,
+        "x1": 244.0,
+        "width": 120.0,
+        "top": 412.0,
+        "bottom": 420.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "604255473367",
+        "x0": 124.0,
+        "x1": 178.67,
+        "width": 54.67,
+        "top": 422.0,
+        "bottom": 430.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-86.000,00",
+    "row_base_y": 411.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 5,
+    "row": 7,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke MCDONALD'S SOK 21401\n604660146382",
+    "lines": [
+      "Pembayaran QR",
+      "ke MCDONALD'S SOK 21401",
+      "604660146382"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 124.0,
+        "x1": 181.52,
+        "width": 57.52,
+        "top": 494.0,
+        "bottom": 502.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "ke MCDONALD'S SOK 21401",
+        "x0": 124.0,
+        "x1": 223.52,
+        "width": 99.52,
+        "top": 504.0,
+        "bottom": 512.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "604660146382",
+        "x0": 124.0,
+        "x1": 178.63,
+        "width": 54.63,
+        "top": 514.0,
+        "bottom": 522.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-88.500,00",
+    "row_base_y": 503.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 5,
+    "row": 9,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke Warung Nasi Masakan Emak\n604275490092",
+    "lines": [
+      "Pembayaran QR",
+      "ke Warung Nasi Masakan Emak",
+      "604275490092"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 124.0,
+        "x1": 181.52,
+        "width": 57.52,
+        "top": 586.0,
+        "bottom": 594.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "ke Warung Nasi Masakan Emak",
+        "x0": 124.0,
+        "x1": 234.08,
+        "width": 110.08,
+        "top": 596.0,
+        "bottom": 604.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "604275490092",
+        "x0": 124.0,
+        "x1": 180.68,
+        "width": 56.68,
+        "top": 606.0,
+        "bottom": 614.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-10.000,00",
+    "row_base_y": 595.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 5,
+    "row": 10,
+    "category": "BANK_FEES_ADMIN",
+    "line_count": 3,
+    "full_text": "Biaya transaksi bank\nPembayaran Danatopup\n89508089527174158",
+    "lines": [
+      "Biaya transaksi bank",
+      "Pembayaran Danatopup",
+      "89508089527174158"
+    ],
+    "line_details": [
+      {
+        "text": "Biaya transaksi bank",
+        "x0": 124.0,
+        "x1": 195.76,
+        "width": 71.76,
+        "top": 632.0,
+        "bottom": 640.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "Pembayaran Danatopup",
+        "x0": 124.0,
+        "x1": 210.06,
+        "width": 86.06,
+        "top": 642.0,
+        "bottom": 650.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "89508089527174158",
+        "x0": 124.0,
+        "x1": 199.35,
+        "width": 75.35,
+        "top": 652.0,
+        "bottom": 660.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-1.000,00",
+    "row_base_y": 641.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 5,
+    "row": 11,
+    "category": "EWALLET_BILLER",
+    "line_count": 2,
+    "full_text": "Pembayaran Danatopup\n89508089527174158",
+    "lines": [
+      "Pembayaran Danatopup",
+      "89508089527174158"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran Danatopup",
+        "x0": 124.0,
+        "x1": 210.06,
+        "width": 86.06,
+        "top": 683.0,
+        "bottom": 691.0,
+        "rel_y": -4.92
+      },
+      {
+        "text": "89508089527174158",
+        "x0": 124.0,
+        "x1": 199.35,
+        "width": 75.35,
+        "top": 693.0,
+        "bottom": 701.0,
+        "rel_y": 5.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-55.000,00",
+    "row_base_y": 687.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 5,
+    "row": 12,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke Warung Nasi Masakan Emak\n604276360773",
+    "lines": [
+      "Pembayaran QR",
+      "ke Warung Nasi Masakan Emak",
+      "604276360773"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 124.0,
+        "x1": 181.52,
+        "width": 57.52,
+        "top": 724.0,
+        "bottom": 732.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "ke Warung Nasi Masakan Emak",
+        "x0": 124.0,
+        "x1": 234.08,
+        "width": 110.08,
+        "top": 734.0,
+        "bottom": 742.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "604276360773",
+        "x0": 124.0,
+        "x1": 179.09,
+        "width": 55.09,
+        "top": 744.0,
+        "bottom": 752.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-70.000,00",
+    "row_base_y": 733.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 6,
+    "row": 1,
+    "category": "QRIS_PAYMENT",
+    "line_count": 3,
+    "full_text": "Pembayaran QR\nke Angkringan mas Bambang\n604273121234",
+    "lines": [
+      "Pembayaran QR",
+      "ke Angkringan mas Bambang",
+      "604273121234"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran QR",
+        "x0": 124.0,
+        "x1": 181.52,
+        "width": 57.52,
+        "top": 218.0,
+        "bottom": 226.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "ke Angkringan mas Bambang",
+        "x0": 124.0,
+        "x1": 226.95,
+        "width": 102.95,
+        "top": 228.0,
+        "bottom": 236.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "604273121234",
+        "x0": 124.0,
+        "x1": 174.98,
+        "width": 50.98,
+        "top": 238.0,
+        "bottom": 246.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-11.000,00",
+    "row_base_y": 227.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 6,
+    "row": 5,
+    "category": "BI_FAST",
+    "line_count": 4,
+    "full_text": "Transfer BI Fast\nKe BCA\nSITI MUFLIHAH FEBRIY 5410635927\nRESERVASI UNIT 1 AC NO 1",
+    "lines": [
+      "Transfer BI Fast",
+      "Ke BCA",
+      "SITI MUFLIHAH FEBRIY 5410635927",
+      "RESERVASI UNIT 1 AC NO 1"
+    ],
+    "line_details": [
+      {
+        "text": "Transfer BI Fast",
+        "x0": 124.0,
+        "x1": 179.96,
+        "width": 55.96,
+        "top": 397.0,
+        "bottom": 405.0,
+        "rel_y": -14.92
+      },
+      {
+        "text": "Ke BCA",
+        "x0": 124.0,
+        "x1": 150.64,
+        "width": 26.64,
+        "top": 407.0,
+        "bottom": 415.0,
+        "rel_y": -4.92
+      },
+      {
+        "text": "SITI MUFLIHAH FEBRIY 5410635927",
+        "x0": 124.0,
+        "x1": 253.03,
+        "width": 129.03,
+        "top": 417.0,
+        "bottom": 425.0,
+        "rel_y": 5.08
+      },
+      {
+        "text": "RESERVASI UNIT 1 AC NO 1",
+        "x0": 124.0,
+        "x1": 219.54,
+        "width": 95.54,
+        "top": 427.0,
+        "bottom": 435.0,
+        "rel_y": 15.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-500.000,00",
+    "row_base_y": 411.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 6,
+    "row": 6,
+    "category": "BI_FAST",
+    "line_count": 4,
+    "full_text": "Transfer BI Fast\nDari BANK KEB HANA\nDEBORA DIAN FITRESIA 19164709001\n-",
+    "lines": [
+      "Transfer BI Fast",
+      "Dari BANK KEB HANA",
+      "DEBORA DIAN FITRESIA 19164709001",
+      "-"
+    ],
+    "line_details": [
+      {
+        "text": "Transfer BI Fast",
+        "x0": 124.0,
+        "x1": 179.96,
+        "width": 55.96,
+        "top": 443.0,
+        "bottom": 451.0,
+        "rel_y": -14.92
+      },
+      {
+        "text": "Dari BANK KEB HANA",
+        "x0": 124.0,
+        "x1": 200.3,
+        "width": 76.3,
+        "top": 453.0,
+        "bottom": 461.0,
+        "rel_y": -4.92
+      },
+      {
+        "text": "DEBORA DIAN FITRESIA 19164709001",
+        "x0": 124.0,
+        "x1": 258.39,
+        "width": 134.39,
+        "top": 463.0,
+        "bottom": 471.0,
+        "rel_y": 5.08
+      },
+      {
+        "text": "-",
+        "x0": 124.0,
+        "x1": 127.12,
+        "width": 3.12,
+        "top": 473.0,
+        "bottom": 481.0,
+        "rel_y": 15.08
+      }
+    ],
+    "tipe": "CR",
+    "nominal": "+510.000,00",
+    "row_base_y": 457.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 6,
+    "row": 7,
+    "category": "BANK_FEES_ADMIN",
+    "line_count": 3,
+    "full_text": "Biaya transaksi bank\nPembayaran Yayasan Sasmita Jaya\n2520900152002301",
+    "lines": [
+      "Biaya transaksi bank",
+      "Pembayaran Yayasan Sasmita Jaya",
+      "2520900152002301"
+    ],
+    "line_details": [
+      {
+        "text": "Biaya transaksi bank",
+        "x0": 124.0,
+        "x1": 195.76,
+        "width": 71.76,
+        "top": 494.0,
+        "bottom": 502.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "Pembayaran Yayasan Sasmita Jaya",
+        "x0": 124.0,
+        "x1": 248.53,
+        "width": 124.53,
+        "top": 504.0,
+        "bottom": 512.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "2520900152002301",
+        "x0": 124.0,
+        "x1": 198.08,
+        "width": 74.08,
+        "top": 514.0,
+        "bottom": 522.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-1.500,00",
+    "row_base_y": 503.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 6,
+    "row": 8,
+    "category": "GENERAL_TRANSFER",
+    "line_count": 2,
+    "full_text": "Pembayaran Yayasan Sasmita Jaya\n2520900152002301",
+    "lines": [
+      "Pembayaran Yayasan Sasmita Jaya",
+      "2520900152002301"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran Yayasan Sasmita Jaya",
+        "x0": 124.0,
+        "x1": 248.55,
+        "width": 124.55,
+        "top": 545.0,
+        "bottom": 553.0,
+        "rel_y": -4.92
+      },
+      {
+        "text": "2520900152002301",
+        "x0": 124.0,
+        "x1": 198.08,
+        "width": 74.08,
+        "top": 555.0,
+        "bottom": 563.0,
+        "rel_y": 5.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-150.000,00",
+    "row_base_y": 549.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 6,
+    "row": 9,
+    "category": "BANK_FEES_ADMIN",
+    "line_count": 3,
+    "full_text": "Biaya transaksi bank\nPembayaran Yayasan Sasmita Jaya\n2520900152002401",
+    "lines": [
+      "Biaya transaksi bank",
+      "Pembayaran Yayasan Sasmita Jaya",
+      "2520900152002401"
+    ],
+    "line_details": [
+      {
+        "text": "Biaya transaksi bank",
+        "x0": 124.0,
+        "x1": 195.76,
+        "width": 71.76,
+        "top": 586.0,
+        "bottom": 594.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "Pembayaran Yayasan Sasmita Jaya",
+        "x0": 124.0,
+        "x1": 248.53,
+        "width": 124.53,
+        "top": 596.0,
+        "bottom": 604.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "2520900152002401",
+        "x0": 124.0,
+        "x1": 197.95,
+        "width": 73.95,
+        "top": 606.0,
+        "bottom": 614.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-1.500,00",
+    "row_base_y": 595.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 6,
+    "row": 10,
+    "category": "GENERAL_TRANSFER",
+    "line_count": 2,
+    "full_text": "Pembayaran Yayasan Sasmita Jaya\n2520900152002401",
+    "lines": [
+      "Pembayaran Yayasan Sasmita Jaya",
+      "2520900152002401"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran Yayasan Sasmita Jaya",
+        "x0": 124.0,
+        "x1": 248.55,
+        "width": 124.55,
+        "top": 637.0,
+        "bottom": 645.0,
+        "rel_y": -4.92
+      },
+      {
+        "text": "2520900152002401",
+        "x0": 124.0,
+        "x1": 197.95,
+        "width": 73.95,
+        "top": 647.0,
+        "bottom": 655.0,
+        "rel_y": 5.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-150.000,00",
+    "row_base_y": 641.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 6,
+    "row": 11,
+    "category": "BANK_FEES_ADMIN",
+    "line_count": 3,
+    "full_text": "Biaya transaksi bank\nPembayaran Yayasan Sasmita Jaya\n2520900152000501",
+    "lines": [
+      "Biaya transaksi bank",
+      "Pembayaran Yayasan Sasmita Jaya",
+      "2520900152000501"
+    ],
+    "line_details": [
+      {
+        "text": "Biaya transaksi bank",
+        "x0": 124.0,
+        "x1": 195.76,
+        "width": 71.76,
+        "top": 678.0,
+        "bottom": 686.0,
+        "rel_y": -9.92
+      },
+      {
+        "text": "Pembayaran Yayasan Sasmita Jaya",
+        "x0": 124.0,
+        "x1": 248.53,
+        "width": 124.53,
+        "top": 688.0,
+        "bottom": 696.0,
+        "rel_y": 0.08
+      },
+      {
+        "text": "2520900152000501",
+        "x0": 124.0,
+        "x1": 199.0,
+        "width": 75.0,
+        "top": 698.0,
+        "bottom": 706.0,
+        "rel_y": 10.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-1.500,00",
+    "row_base_y": 687.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 6,
+    "row": 12,
+    "category": "GENERAL_TRANSFER",
+    "line_count": 2,
+    "full_text": "Pembayaran Yayasan Sasmita Jaya\n2520900152000501",
+    "lines": [
+      "Pembayaran Yayasan Sasmita Jaya",
+      "2520900152000501"
+    ],
+    "line_details": [
+      {
+        "text": "Pembayaran Yayasan Sasmita Jaya",
+        "x0": 124.0,
+        "x1": 248.55,
+        "width": 124.55,
+        "top": 729.0,
+        "bottom": 737.0,
+        "rel_y": -4.92
+      },
+      {
+        "text": "2520900152000501",
+        "x0": 124.0,
+        "x1": 199.0,
+        "width": 75.0,
+        "top": 739.0,
+        "bottom": 747.0,
+        "rel_y": 5.08
+      }
+    ],
+    "tipe": "DB",
+    "nominal": "-200.000,00",
+    "row_base_y": 733.92
+  },
+  {
+    "source_file": "REK GAJI AGUSTUS IBNU AGUN.pdf",
+    "page": 7,
+    "row": 2,
+    "category": "BI_FAST",
+    "line_count": 4,
+    "full_text": "Transfer BI Fast\nDari BANK PERMATA\nSITI MUFLIHAH FEBRIY 1239676916\n-",
+    "lines": [
+      "Transfer BI Fast",
+      "Dari BANK PERMATA",
+      "SITI MUFLIHAH FEBRIY 1239676916",
+      "-"
+    ],
+    "line_details": [
+      {
+        "text": "Transfer BI Fast",
+        "x0": 124.0,
+        "x1": 179.96,
+        "width": 55.96,
+        "top": 259.0,
+        "bottom": 267.0,
+        "rel_y": -14.92
+      },
+      {
+        "text": "Dari BANK PERMATA",
+        "x0": 124.0,
+        "x1": 199.06,
+        "width": 75.06,
+        "top": 269.0,
+        "bottom": 277.0,
+        "rel_y": -4.92
+      },
+      {
+        "text": "SITI MUFLIHAH FEBRIY 1239676916",
+        "x0": 124.0,
+        "x1": 250.54,
+        "width": 126.54,
+        "top": 279.0,
+        "bottom": 287.0,
+        "rel_y": 5.08
+      },
+      {
+        "text": "-",
+        "x0": 124.0,
+        "x1": 127.12,
+        "width": 3.12,
+        "top": 289.0,
+        "bottom": 297.0,
+        "rel_y": 15.08
+      }
+    ],
+    "tipe": "CR",
+    "nominal": "+500.000,00",
+    "row_base_y": 273.92
+  },
+  {
+    "source_file": "REK_IBNU_SEP_OUTPUT_1.pdf",
+    "page": 1,
+    "row": 8,
+    "category": "EWALLET_BILLER",
+    "line_count": 4,
+    "full_text": "Transfer antar Mandiri\nDARI ESPAY DEBIT INDONESI\nDANA001031625728962 Tra\nnsfer Fee 031625728962",
+    "lines": [
+      "Transfer antar Mandiri",
+      "DARI ESPAY DEBIT INDONESI",
+      "DANA001031625728962 Tra",
+      "nsfer Fee 031625728962"
+    ],
+    "line_details": [
+      {
+        "text": "Transfer antar Mandiri",
+        "x0": 124.0,
+        "x1": 202.36,
+        "width": 78.36,
+        "top": 651.0,
+        "bottom": 659.0,
+        "rel_y": -14.92
+      },
+      {
+        "text": "DARI ESPAY DEBIT INDONESI",
+        "x0": 124.0,
+        "x1": 229.63,
+        "width": 105.63,
+        "top": 661.0,
+        "bottom": 669.0,
+        "rel_y": -4.92
+      },
+      {
+        "text": "DANA001031625728962 Tra",
+        "x0": 124.0,
+        "x1": 225.71,
+        "width": 101.71,
+        "top": 671.0,
+        "bottom": 679.0,
+        "rel_y": 5.08
+      },
+      {
+        "text": "nsfer Fee 031625728962",
+        "x0": 124.0,
+        "x1": 212.8,
+        "width": 88.8,
+        "top": 681.0,
+        "bottom": 689.0,
+        "rel_y": 15.08
+      }
+    ],
+    "tipe": "CR",
+    "nominal": "+10.000,00",
+    "row_base_y": 665.92
+  },
+  {
+    "source_file": "REK_IBNU_SEP_OUTPUT_1.pdf",
+    "page": 2,
+    "row": 3,
+    "category": "EWALLET_BILLER",
+    "line_count": 4,
+    "full_text": "Transfer antar Mandiri\nDARI ESPAY DEBIT INDONESI\nDANA001031622928162 Tran\nsfer Fee 031622928162",
+    "lines": [
+      "Transfer antar Mandiri",
+      "DARI ESPAY DEBIT INDONESI",
+      "DANA001031622928162 Tran",
+      "sfer Fee 031622928162"
+    ],
+    "line_details": [
+      {
+        "text": "Transfer antar Mandiri",
+        "x0": 124.0,
+        "x1": 202.36,
+        "width": 78.36,
+        "top": 305.0,
+        "bottom": 313.0,
+        "rel_y": -14.92
+      },
+      {
+        "text": "DARI ESPAY DEBIT INDONESI",
+        "x0": 124.0,
+        "x1": 229.63,
+        "width": 105.63,
+        "top": 315.0,
+        "bottom": 323.0,
+        "rel_y": -4.92
+      },
+      {
+        "text": "DANA001031622928162 Tran",
+        "x0": 124.0,
+        "x1": 228.59,
+        "width": 104.59,
+        "top": 325.0,
+        "bottom": 333.0,
+        "rel_y": 5.08
+      },
+      {
+        "text": "sfer Fee 031622928162",
+        "x0": 124.0,
+        "x1": 206.8,
+        "width": 82.8,
+        "top": 335.0,
+        "bottom": 343.0,
+        "rel_y": 15.08
+      }
+    ],
+    "tipe": "CR",
+    "nominal": "+100.000,00",
+    "row_base_y": 319.92
   }
 ]

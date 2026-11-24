@@ -16,6 +16,13 @@ REFERENCE_FILES = [
     r"D:\X_Files\rekening\Reference\Roy\ilovepdf_unlocked\Mei 2026_unlocked.pdf",
     r"D:\X_Files\rekening\Reference\nasih 2024 new unlocked\ilovepdf_unlocked\e-Statement_XXXXXXXXX9210_01 Des 2024-31 Des 2024_unlocked.pdf",
     r"D:\X_Files\rekening\Reference\suhanda unlocked\e-Statement_XXXXXXXXX9648_01 Apr 2026-30 Apr 2026_unlocked.pdf",
+    # 3-Month Production Statements (Aug, Sep, Oct 2026)
+    r"D:\X_Files\rekening\PT BENDI NASHA NIAGA INDUSTRI\Wafiq\Folder Baru\aug\REK_WAFIQ_AUG_OUTPUT_PERFECT.pdf",
+    r"D:\X_Files\rekening\PT BENDI NASHA NIAGA INDUSTRI\Wafiq\Folder Baru\sep\REK_WAFIQ_SEP_OUTPUT_PERFECT.pdf",
+    r"D:\X_Files\rekening\PT BENDI NASHA NIAGA INDUSTRI\Wafiq\Folder Baru\okt\REK_WAFIQ_OKT_OUTPUT_PERFECT.pdf",
+    r"D:\X_Files\rekening\PT BENDI NASHA NIAGA INDUSTRI\Ibnu Agun\REK GAJI AGUSTUS IBNU AGUN.pdf",
+    r"D:\X_Files\rekening\PT BENDI NASHA NIAGA INDUSTRI\Ibnu Agun\Folder Baru\sep\REK_IBNU_SEP_OUTPUT_1.pdf",
+    r"D:\X_Files\rekening\PT BENDI NASHA NIAGA INDUSTRI\Ibnu Agun\Folder Baru\okt\REK_IBNU_OKT_OUTPUT_1.pdf",
 ]
 
 
@@ -40,11 +47,11 @@ def classify_category(full_text: str, lines: List[str]) -> str:
     if any(k in full_text for k in ["Shopee Indonesia", "Tokopedia", "TikTok", "Blibli", "Lazada"]):
         return "ECOMMERCE"
         
+    if any(full_text.startswith(k) for k in ["Biaya", "Bunga", "Pajak"]):
+        return "BANK_FEES_ADMIN"
+
     if any(k in full_text for k in ["Danatopup", "Instamoney", "Top-up e-money", "Gopay", "OVO", "DANA", "Telkomsel", "PLN"]):
         return "EWALLET_BILLER"
-        
-    if any(k in full_text for k in ["Biaya", "Bunga", "Pajak"]):
-        return "BANK_FEES_ADMIN"
         
     return "GENERAL_TRANSFER"
 

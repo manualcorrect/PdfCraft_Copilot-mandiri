@@ -1,38 +1,30 @@
-import re
-import zlib
-import pdfplumber
+import pdfplumber, openpyxl, os
 
-pdf_path = r"D:\X_Files\rekening\PT BENDI NASHA NIAGA INDUSTRI\Ibnu Agun\Folder Baru\sep\0.pdf"
+ref_path = r'D:\X_Files\rekening\PT BENDI NASHA NIAGA INDUSTRI\Ibnu Agun\REK GAJI SEPTEMBER IBNU AGUN.pdf'
+with pdfplumber.open(ref_path) as pdf:
+    print("Total pages in Ibnu Agun Sep:", len(pdf.pages))
+    p1 = pdf.pages[0]
+    words = p1.extract_words()
+    print("\n=== Header Page 1 Ibnu Agun Sep ===")
+    for w in sorted(words, key=lambda x: (x['top'], x['x0'])):
+        if w['top'] < 160:
+            print(f"{w['top']:.2f}, {w['x0']:.2f}: {w['text']}")
 
-with open(pdf_path, "rb") as f:
-    pdf_bytes = f.read()
+    # Find salary transaction
+    print("\n=== Salary Transaction Search in Ibnu Agun Sep ===")
+    for p_idx, page in enumerate(pdf.pages):
+        text = page.extract_text()
+        if "BENDI" in text or "6.000.000" in text or "5.500.000" in text:
+            print(f"Salary found on Page {p_idx+1}")
+            words = page.extract_words()
+            for w in sorted(words, key=lambda x: (x['top'], x['x0'])):
+                if "BENDI" in w['text'] or "5411078192" in w['text'] or "CENAIDJA" in w['text']:
+                    print(f"Top {w['top']:.2f}, x0={w['x0']:.2f}-{w['x1']:.2f}: {w['text']}")
 
-# Find pages catalog and page objects
-page_matches = list(re.finditer(rb'(\d+)\s+0\s+obj\s*<<(?:(?!endobj).)*?/Type\s*/Page\b(?:(?!endobj).)*?>>\s*endobj', pdf_bytes, re.DOTALL))
-print("Found /Type /Page count in 0.pdf:", len(page_matches))
-content_oids = []
-for idx, pm in enumerate(page_matches):
-    p_oid = int(pm.group(1))
-    p_text = pm.group(0).decode('latin1', errors='ignore')
-    m_contents = re.search(r'/Contents\s+(\d+)\s+0\s+R', p_text)
-    if m_contents:
-        c_oid = int(m_contents.group(1))
-        content_oids.append(c_oid)
-        print(f"Page {idx+1} (OID {p_oid}): /Contents {c_oid}")
-
-print(f"Content OIDs: {content_oids}")
-
-# Inspect Page 1 content stream
-p1_raw_m = re.search(rb'\b' + str(content_oids[0]).encode() + rb'\s+0\s+obj\s*<<(.*?)>>\s*stream[\r\n]+(.*?)[\r\n]+endstream', pdf_bytes, re.DOTALL)
-if p1_raw_m:
-    p1_decomp = zlib.decompress(p1_raw_m.group(2)).decode('latin1', errors='ignore')
-    pos_c1 = p1_decomp.find('446.12 667')
-    pos_c4 = p1_decomp.find('446.12 597')
-    print(f"Page 1 Summary Box: pos_c1={pos_c1}, pos_c4={pos_c4}")
-    pos_now = p1_decomp.find('16 676 cm')
-    print(f"pos_now={pos_now}")
-    matches_b2 = list(re.finditer(r'q\s+1\s+0\s+0\s+1\s+[\d\.]+\s+667\s+cm', p1_decomp))
-    print(f"matches_b2 len: {len(matches_b2)}")
-    if matches_b2:
-        print("Slice of b2:")
-        print(p1_decomp[matches_b2[0].start() : matches_b2[0].start() + 250])
+    # Find closing fee
+    last_page = pdf.pages[-1]
+    print(f"\n=== Last Page (Page {len(pdf.pages)}) Ibnu Agun Sep ===")
+    words = last_page.extract_words()
+    for w in sorted(words, key=lambda x: (x['top'], x['x0'])):
+        if 350 <= w['top'] <= 460:
+            print(f"Top {w['top']:.2f}, x0={w['x0']:.2f}-{w['x1']:.2f}: {w['text']}")
